@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ALFormInput_Example' do
+  pod 'ALFormInput', :path => '../'
+
+  target 'ALFormInput_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
