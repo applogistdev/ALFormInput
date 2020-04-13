@@ -1,0 +1,6 @@
+framework module Pods_ALFormInput_Tests {
+  umbrella header "Pods-ALFormInput_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

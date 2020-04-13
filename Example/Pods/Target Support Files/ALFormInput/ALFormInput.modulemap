@@ -1,0 +1,6 @@
+framework module ALFormInput {
+  umbrella header "ALFormInput-umbrella.h"
+
+  export *
+  module * { export * }
+}
