@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  ALValidatableConfig.swift
 //  
 //
 //  Created by AppLogist on 10.04.2020.

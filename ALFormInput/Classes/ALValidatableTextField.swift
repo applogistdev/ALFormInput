@@ -1,7 +1,15 @@
+//
+//  ALValidatableTextFieldT.swift
+//  ALFormInput
+//
+//  Created by AppLogist on 10.04.2020.
+//  Copyright © 2020 AppLogist. All rights reserved.
+//
 
 import UIKit
 import SkyFloatingLabelTextField
 import PhoneNumberKit
+import SwiftValidatorNew
 
 public class ALValidatableTextField: SkyFloatingLabelTextField {
     
@@ -246,14 +254,14 @@ extension ALValidatableTextField: UITextFieldDelegate {
 extension ALValidatableTextField {
     
     override open func textRect(forBounds bounds: CGRect) -> CGRect {
-        paddingNeeded ? bounds.inset(by: padding ?? .zero) : super.textRect(forBounds: bounds)
+        paddingNeeded ? bounds.insetBy(dx: padding?.top ?? 0, dy: padding?.bottom ?? 0) : super.textRect(forBounds: bounds)
     }
     
     override open func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-        paddingNeeded ? bounds.inset(by: padding ?? .zero) : super.textRect(forBounds: bounds)
+        paddingNeeded ? bounds.insetBy(dx: padding?.top ?? 0, dy: padding?.bottom ?? 0) : super.textRect(forBounds: bounds)
     }
     
     override open func editingRect(forBounds bounds: CGRect) -> CGRect {
-        paddingNeeded ? bounds.inset(by: padding ?? .zero) : super.textRect(forBounds: bounds)
+        paddingNeeded ? bounds.insetBy(dx: padding?.top ?? 0, dy: padding?.bottom ?? 0) : super.textRect(forBounds: bounds)
     }
 }

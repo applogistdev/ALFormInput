@@ -7,41 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F25EE3D650DD5F02B840AEEECBD1827 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02648CA0CDE9D3E5A719D1DD932A0409 /* ALValidatableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D0A28CB047D767BF9C97A98BBDE94D /* ALValidatableTextField.swift */; };
+		048A2E7F7FA91ED2C7559BDE54AFD44C /* CreditCardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FEE2BF634B6490A8E9635C40C8EE03 /* CreditCardType.swift */; };
+		07F7D1DB5EB493095E0F7A6EBAF46DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */; };
+		0903BA6B80484307984E4F507BCE1967 /* ValidatorDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B75703B4FBB945F5E263EB7353D97 /* ValidatorDictionary.swift */; };
+		0A0A7B76F15F6C872602064EF2BCD546 /* SwiftValidatorNew-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0F687CFAFA1035C2E0A095A6CCBE07 /* SwiftValidatorNew-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BDEE0BBDE468B2748235EE5D0DB1285 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60917FE748E80454FA3C4746EA04D582 /* Formatter.swift */; };
+		1078B3BA6A101DAD802C907CF956B851 /* RegexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D294BF218513EF8FDFEA2FAA25CC0DF /* RegexManager.swift */; };
+		1121DE4C9EBD94126BF1EBCE08159E57 /* ALFormInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6874AA28B8E852A8BADF653F13B461 /* ALFormInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13AEE5AA8CB9F867DD51C1F0D95725E4 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDEEF1C93C8D519852D733AB7DA4D2 /* Validatable.swift */; };
+		13B8E4299F40B08795D6F6A2DA23DF60 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC5E37406E2A67FEC923263F988437 /* TextField.swift */; };
+		14ADBAECBDFD8E799325C4FFC22A4611 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795762C5FEC3576877DE62E9345D68FF /* SkyFloatingLabelTextField-dummy.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FD1A008D18A9ADBEFE6FB4069C710D /* QuartzCore.framework */; };
+		16A089BE860BF719433ABF41C3170E77 /* ALValidatableTextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DC212474D057744E2D2147D6A9696 /* ALValidatableTextFieldType.swift */; };
+		1BAC4F76B70DCFDD6C95C9887C999D03 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2410E7A7842495B87504D2B2C3369CD /* FBSnapshotTestController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1BB7C8A32161714CF1FD77920B106C68 /* Pods-ALFormInput_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2CE52E730842CF5F141E54C57434E1 /* Pods-ALFormInput_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C409F74070965BE25B3FABEC072BE00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		397DFE212F51FBA1F43E193CF4AF858E /* ALFormInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D0D7B1D89E83F648C0AD5C03F84CCD /* ALFormInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		50EA7E6DCBC90289EB51CF5D9B4DDEB3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9E8CC52146E5EA26B6B178C6A577DA /* ReplaceMe.swift */; };
+		1D6F6D47F1861BDF0A858A975DD684AB /* TCIdentityRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07CC23EB6B651C6DCD453BE2B1D8E26 /* TCIdentityRule.swift */; };
+		23C2D3BDCFECB43F0B153263C8145BAB /* AlphaRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40626FA753C713E8F202465F12CE9A9E /* AlphaRule.swift */; };
+		278FFEC0599D01015CFE42EECB1B5FE4 /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE126C01D96D6178CBFAD6204B4F6EBA /* MinLengthRule.swift */; };
+		2C409F74070965BE25B3FABEC072BE00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */; };
+		2E2B411515A59650DD3FC53E45C0A4A8 /* PhoneNumberKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED330FDA0B3D2C0F086B67D8399D4D7 /* PhoneNumberKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318E95B0689A3507D9608B5948548910 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E10D256906189FA70F04DA93081BE3 /* FBSnapshotTestCase-dummy.m */; };
+		332CE36CBCB81C90516AF934DF157583 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDDB13088443AA9A4F1D276790F3161 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335625C66E01BFF23C4CA2748877C788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */; };
+		37B1A9F998ED2E2114345C95531F2155 /* AL+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61A776BDE3E8A3DDE3AF6CF76DBDFD /* AL+String.swift */; };
+		3AE009D14563CEBD54BB2A0A5DC922F2 /* AL+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B8611F1631ECF2D7775434B57E016 /* AL+UITextField.swift */; };
+		3D71957A9DE98471EDCC8ADA50BBFDE0 /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68688A44E3B657071C18E25AA0993E6 /* PasswordRule.swift */; };
+		3FCEA0136CB778076C0C5B1F7302B817 /* ReplacedExactLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9EDA1C8FC30DA2179CE0E588DE84D9 /* ReplacedExactLengthRule.swift */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 749928CEC3C5921212CD5C779F43C2AF /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44F4C0B4472C30958C0C2719EB12872F /* ZipCodeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E2576146CBE20614D1677EDB494C8 /* ZipCodeRule.swift */; };
+		4C10D9BF4E0B8C6CE34C92C48ACA0159 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C362BBE0E90E1C5983CD4E6D893869C /* Constants.swift */; };
+		4C3565423F845ED18598958484AA7B58 /* SwiftValidatorNew-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DCDA246CDAF7B935ACA30FACDA6DF /* SwiftValidatorNew-dummy.m */; };
+		4E0B93CFCB118B3D54C5A327B4FC7C2F /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F4DC53162E2DB11D6AD729249B42A /* PhoneNumberFormatter.swift */; };
+		50B24D81CDC8DAB9ED9821FD883086BF /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA3000D1A8E6113DB0B81D713DCB45 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		53317B04AB548F3568225C7390E37C26 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0CF63647D4C61A21A3EC4725489C23 /* UIImage+Diff.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		56989A91B64F5CF6C103D951752333BC /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F8AB7253D389E6BBB7EAD0EF324DC /* PhoneNumberParser.swift */; };
 		5EF17B1792F9A89C5DB27C0EE8F28313 /* Pods-ALFormInput_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34844E941B0F42D4A457DD5B284969CA /* Pods-ALFormInput_Tests-dummy.m */; };
-		652F5E692578229C5B73F282BA0997E4 /* ALFormInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C2954D2BB3BFBB2F7CC48060E5FD8C /* ALFormInput-dummy.m */; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		821EDC3B5822A6C91EFF15BA15456161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		933805C4A8695CC01870CFF02E32E474 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		A4CA5086A7BBE3E819734B3239FE8D5B /* Pods-ALFormInput_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C60184155FCAF854609E47987670E9C /* Pods-ALFormInput_Example-dummy.m */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DDE2E18AF6149B397717F193BD582EF7 /* Pods-ALFormInput_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8121EBA4B4642B6CE7FD4DF4AF828C00 /* Pods-ALFormInput_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6154C72518C8E4F2FD3107B2014E8FF9 /* MaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199A6D06084B81103A73C535BE5D90A /* MaxLengthRule.swift */; };
+		61D520479CE19E32D0AEF4F6860BDBFB /* Pods-ALFormInput_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8121EBA4B4642B6CE7FD4DF4AF828C00 /* Pods-ALFormInput_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62044ECA464FDD7C5C9CDC7EC17DB505 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E7620850C2862F7F77E91B3056B1 /* UIImage+Snapshot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6650C095330F67C112A1F281A932EA99 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B72CBD74DB1D4011607CD10EB200B9A9 /* FBSnapshotTestCasePlatform.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		66D5189B76643CA382618AD681CBE25C /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EEF262A39514D7147B6515C753CFEE /* MetadataManager.swift */; };
+		66F385CD1C74A238432CC2CC857740B8 /* CustomPhoneNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A7C2F070DFBF0007333B8DF80A330 /* CustomPhoneNumberRule.swift */; };
+		69AC112DE6B4DD7282BD70599198B1EF /* ALValidatableConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6166FF65BC0F639774F440AB11F4119 /* ALValidatableConfig.swift */; };
+		69C22E2E69F5F31B1A04706A20B0245D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A119651202AF5E853EFE3D3FA66BAF /* CoreTelephony.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3308CA71FB827672C3F66C3E119B3D /* XCTest.framework */; };
+		72A7602A2E8BCF0D4A6AB72FE05D7C8B /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F2DDE6BD9C8C064856D052122545C /* ValidationError.swift */; };
+		738DC548A39CFDFFC5817F5025A3F634 /* PhoneNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42E743FAD17E34369881F02400D25D /* PhoneNumberRule.swift */; };
+		77E1B0E7D6FF466CE46E2CFED14DFED1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5B207F323DCC055FA92571EDFFD3D /* FBSnapshotTestCase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		79E3149A20D0D86A5861BF48CB37588B /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA15A1DF506691396687AE37DFD815 /* SwiftSupport.swift */; };
+		7AE6396A1E8F3F78A00A808CD8D1B13D /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36896D9F99426B2556AFD6405E1D050C /* PhoneNumber.swift */; };
+		7DC173B06500FA1810386C69E1AE97C2 /* SkyFloatingLabelTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFEDC0D6C9D7BA897291C9EFE0E31B0 /* SkyFloatingLabelTextField.framework */; };
+		85DC9C94D114EB1EB4F045585CE8527B /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA58031E96267B4471B7B492327FF289 /* Validator.swift */; };
+		8769CA43084488FBEECF9C4FA78F0F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */; };
+		87C3284F92B1B80A0D1FBED6D86B9A87 /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8698B4D29E2D5A731127CAD5B9BF31D /* PartialFormatter.swift */; };
+		88400071100DB2C68F583554059A83CA /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B64749883B903805EAA54138A74B6EE /* PhoneNumberKit.swift */; };
+		8BE801AB7FFB30BD26645CABCBCAFBFF /* Pods-ALFormInput_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C60184155FCAF854609E47987670E9C /* Pods-ALFormInput_Example-dummy.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EA3D9EA282EC2F19798CB2E85F5869 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A108D0F763F4AA9FA271147014AA890 /* FullNameRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA40B1A7266CE2E98C466F66C70F19 /* FullNameRule.swift */; };
+		9A624D9B43FB6AF30373C524415CCD2E /* MetadataParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D202F9507D5CC0C4C6931C8D78A1F2E /* MetadataParsing.swift */; };
+		9B52A747BA5BE9232A25F6BDF86ACBED /* ValidationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE62D68D120DD7B7C310CAC069138D /* ValidationDelegate.swift */; };
+		9D183B4EF1CF0D53168176440DE44BF4 /* PhoneNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A07E317468AE8E9388A0E55325ED495 /* PhoneNumberRule.swift */; };
+		9F7728F6CC5DD4BAE0597E80904E6235 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F75EA365C1DAFB0E51F3C6824297D39 /* UIApplication+StrictKeyWindow.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A563E48D91B8DABDC55EEBC5DBF0E280 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19DF71EA93A27A15DBC61C244CDC22 /* MetadataTypes.swift */; };
+		A747A73FC92DF754970DDF58F403B050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449441BA99E2545659025D9DE56A642F /* UIKit.framework */; };
+		A8A1C19C099B33447E2547175650E0D1 /* PhoneNumberKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AECF02DFA5F9D350FB18BA594C069AC8 /* PhoneNumberKit-dummy.m */; };
+		A96331691A956FA83FC2F9F7607171F7 /* SwiftValidatorNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03376193628525594268844CFFEEB2EA /* SwiftValidatorNew.framework */; };
+		AD9DEFDC8146DB2629E3228A4552D14A /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76A10DA8ED78B5B8297AB6EA5AE91D /* ParseManager.swift */; };
+		B254ED8206B7CBDC4997F26AD2CC3124 /* EmailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB22D1BE0FF0A738952CC7B45240645F /* EmailRule.swift */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */; };
+		B2B9E94911759F56F7C72D939EBC6928 /* RequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CB67DE8EF4AEA1E9816088400FC28 /* RequiredRule.swift */; };
+		B3388E3CE29E2157F34B113019B5F083 /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557F0EEE10DE7B049955DEA27E8613B8 /* PhoneNumberKit.framework */; };
+		B70585EFDCC0FCAA6DA4997089113200 /* HexColorRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A66AC11CFEADDDFD674D9E0738E209D /* HexColorRule.swift */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B4E975D479C8481F460A6DD2617901 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7683E50DA595732A5545C8BB6D5E87D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */; };
+		B82468A8C6A1BFD8F068FB14312CD541 /* FloatRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB73FFA60670E3AF59E587C2A3FE40D /* FloatRule.swift */; };
+		BCD3E9D3B15C2F0639F644D20814336E /* AlphaNumericRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECF08C9F0B602F93657CB3DE538F43 /* AlphaNumericRule.swift */; };
+		BF5A48B66B431390707251E8DD9A3DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */; };
+		BFCD27EA1513719252030E76A60B49D9 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB3486B9EBED9CF9DA4274C399720BB /* UIImage+Compare.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C31CB339B46400E229FD120A2D45FA07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449441BA99E2545659025D9DE56A642F /* UIKit.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 092D5EA9991C11D9AB6CFE190C2C58BB /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C56676FA21AA4894714F3B28068D7EEA /* IPV4Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65555363D577F25D2FD76E8DD5004EA /* IPV4Rule.swift */; };
+		D00FBD8151206DB57DDD7A5D5264ABC4 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9CDB54ABC0977735593C2825CFC8D /* SkyFloatingLabelTextField.swift */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = BC285F44B63B1654A1542117DD3A20AC /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D1B9FC2425036F29E5AA5470F9AAE1D8 /* CountryCodePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA86983A0C3BF29ECD66201173E4D0 /* CountryCodePickerViewController.swift */; };
+		D646BBD0892B7339F54B8E63FB2D317B /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAA970D0F823D6D2A95DEE5F08E52F0 /* ValidationRule.swift */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449441BA99E2545659025D9DE56A642F /* UIKit.framework */; };
+		E4F2B4C11E3DF63B0C7DB7245397C7CB /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD094A88DB2838EB94EC1DC2F9F8E0 /* UITextField+fixCaretPosition.swift */; };
+		E8860CB351B74C46E7C50B2621E7BD99 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EA8912AB42BDFEB1C395F23369F2DC /* Rule.swift */; };
+		E949E1D9DD1BB479316331EA70BC1184 /* CardNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C53502D9D427F59D585996037825F7 /* CardNumberRule.swift */; };
+		F08BDBEABDBAD78F7EB8BBCE544B4835 /* ALFormInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31072D033A7E5872F42937E3D592C452 /* ALFormInput-dummy.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C405F69CB113C06C2C783EBC672FB9A2 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F2F2DB0D7F149CE93F29B8B7D415DFEF /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DB66010A7B1545BB0B4996DF9A537F /* RegexRule.swift */; };
+		F40CF09F1B8EE0C3CA65DF821B3DB768 /* CharacterSetRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF881D4F1A1766424591934B52A532 /* CharacterSetRule.swift */; };
+		F5A5A21557051286129CEE3A28C112ED /* ISBNRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB52AB8880EB2E6628418C5857F9930 /* ISBNRule.swift */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA36B989BAB9E56CED5A021946BA497 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7588457E9C8F439869253EB211F7461 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = 43D22FB8CB6FD0935277D3B65E7F4D8A /* PhoneNumberMetadata.json */; };
+		F864130E3932F6010AE76786D294792C /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D4656F85DE8D9712528D2CF7FCE83 /* NSRegularExpression+Swift.swift */; };
+		FCA071C4153CCA5A5DD03E014C1CAA0F /* ExactLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEC5131995B0E02865D3B572C6DFBA /* ExactLengthRule.swift */; };
+		FFC65E99CB2C31D7A711268696E53C47 /* ConfirmRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A34B0C52C9B56140E8A8E26B3E26FD /* ConfirmRule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C6BD8C51D2AEB1CAD6711CADC93ADDD /* PBXContainerItemProxy */ = {
+		5EBE6D1C833C55A2307B0D5E64F8B58B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -55,6 +124,41 @@
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		84366D16A968ED63CF9EB63A2E91F60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C942A9CCE5CF382E8053D9757DA6249D;
+			remoteInfo = PhoneNumberKit;
+		};
+		94F36D6464D1B7C1477855CEBAB8B138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F452D4AD6E1DAE1245A7270C48A8D342;
+			remoteInfo = SwiftValidatorNew;
+		};
+		9A99B72528BED96CE85E03AED005C56A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C942A9CCE5CF382E8053D9757DA6249D;
+			remoteInfo = PhoneNumberKit;
+		};
+		9CCB3DCC1CE7DF3A0891B954B0B7D6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		BB8C5E8616764FE95E681E2D4D5F8926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F452D4AD6E1DAE1245A7270C48A8D342;
+			remoteInfo = SwiftValidatorNew;
+		};
 		D80A1B13F0816C7B85E5AF4A6E724E04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -62,77 +166,175 @@
 			remoteGlobalIDString = E25486674EC1470544AFA7AD4B613F45;
 			remoteInfo = "Pods-ALFormInput_Example";
 		};
+		DBD49D1CBA8C3006851524ACE3560CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019A4064F775D763CF1A6E6474E1F6F8 /* Pods_ALFormInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALFormInput_Example.framework; path = "Pods-ALFormInput_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		050BBEAE92EAACF5E9FFBF640E8566AA /* ALFormInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALFormInput.framework; path = ALFormInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		136B9CA870C78BDFB6D5B583F0B21FA2 /* ALFormInput.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALFormInput.release.xcconfig; sourceTree = "<group>"; };
+		019A4064F775D763CF1A6E6474E1F6F8 /* Pods_ALFormInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALFormInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03376193628525594268844CFFEEB2EA /* SwiftValidatorNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftValidatorNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		050BBEAE92EAACF5E9FFBF640E8566AA /* ALFormInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALFormInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		092D5EA9991C11D9AB6CFE190C2C58BB /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		0A6A7C2F070DFBF0007333B8DF80A330 /* CustomPhoneNumberRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomPhoneNumberRule.swift; sourceTree = "<group>"; };
+		0FB52AB8880EB2E6628418C5857F9930 /* ISBNRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISBNRule.swift; path = SwiftValidator/Rules/ISBNRule.swift; sourceTree = "<group>"; };
+		100CB67DE8EF4AEA1E9816088400FC28 /* RequiredRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequiredRule.swift; path = SwiftValidator/Rules/RequiredRule.swift; sourceTree = "<group>"; };
+		1052D3F18F3BFD14FB41194DF97B94A1 /* PhoneNumberKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PhoneNumberKit-Info.plist"; sourceTree = "<group>"; };
+		1098E5FA35AFC0C2D7B52403777B29B8 /* SwiftValidatorNew-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftValidatorNew-Info.plist"; sourceTree = "<group>"; };
+		10DEC5131995B0E02865D3B572C6DFBA /* ExactLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExactLengthRule.swift; path = SwiftValidator/Rules/ExactLengthRule.swift; sourceTree = "<group>"; };
+		113DCDA246CDAF7B935ACA30FACDA6DF /* SwiftValidatorNew-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftValidatorNew-dummy.m"; sourceTree = "<group>"; };
+		1199A6D06084B81103A73C535BE5D90A /* MaxLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaxLengthRule.swift; path = SwiftValidator/Rules/MaxLengthRule.swift; sourceTree = "<group>"; };
+		1215806FFC52B07C8C4837C09C507264 /* SwiftValidatorNew.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftValidatorNew.modulemap; sourceTree = "<group>"; };
 		147A69487603CA8B45313F5C62D51837 /* Pods-ALFormInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALFormInput_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		25C2954D2BB3BFBB2F7CC48060E5FD8C /* ALFormInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALFormInput-dummy.m"; sourceTree = "<group>"; };
-		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		14A9CDB54ABC0977735593C2825CFC8D /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		19EEF262A39514D7147B6515C753CFEE /* MetadataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataManager.swift; path = PhoneNumberKit/MetadataManager.swift; sourceTree = "<group>"; };
+		1A66AC11CFEADDDFD674D9E0738E209D /* HexColorRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorRule.swift; path = SwiftValidator/Rules/HexColorRule.swift; sourceTree = "<group>"; };
+		1AA36B989BAB9E56CED5A021946BA497 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		1F75EA365C1DAFB0E51F3C6824297D39 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		20FDEEF1C93C8D519852D733AB7DA4D2 /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = SwiftValidator/Core/Validatable.swift; sourceTree = "<group>"; };
+		24C53502D9D427F59D585996037825F7 /* CardNumberRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardNumberRule.swift; sourceTree = "<group>"; };
+		290D4656F85DE8D9712528D2CF7FCE83 /* NSRegularExpression+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Swift.swift"; path = "PhoneNumberKit/NSRegularExpression+Swift.swift"; sourceTree = "<group>"; };
+		29FC3D9726810FE6D6500344AAAF2AEB /* PhoneNumberKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhoneNumberKit.debug.xcconfig; sourceTree = "<group>"; };
+		2AF21795BE2BF5BC1582717F80C92053 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
 		2B2CE52E730842CF5F141E54C57434E1 /* Pods-ALFormInput_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALFormInput_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2BC5B207F323DCC055FA92571EDFFD3D /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		2F0E1604E025123609E0AF4DAF2ABF0A /* Pods-ALFormInput_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALFormInput_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		309DC212474D057744E2D2147D6A9696 /* ALValidatableTextFieldType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALValidatableTextFieldType.swift; path = ALFormInput/Classes/ALValidatableTextFieldType.swift; sourceTree = "<group>"; };
+		31072D033A7E5872F42937E3D592C452 /* ALFormInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALFormInput-dummy.m"; sourceTree = "<group>"; };
+		313E2576146CBE20614D1677EDB494C8 /* ZipCodeRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZipCodeRule.swift; path = SwiftValidator/Rules/ZipCodeRule.swift; sourceTree = "<group>"; };
+		32E86BE24D5E502F35BA3E403CEC3EA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34844E941B0F42D4A457DD5B284969CA /* Pods-ALFormInput_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALFormInput_Tests-dummy.m"; sourceTree = "<group>"; };
-		35C5F8E430AFD19B610EE146B57CD771 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		36896D9F99426B2556AFD6405E1D050C /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = PhoneNumberKit/PhoneNumber.swift; sourceTree = "<group>"; };
 		386800D4A3E57A4FFDAC338A54C200E2 /* Pods-ALFormInput_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALFormInput_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A92D580A9161AD9D79DB24F56E9BFF8 /* Pods-ALFormInput_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALFormInput_Example-Info.plist"; sourceTree = "<group>"; };
-		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3B6F2DDE6BD9C8C064856D052122545C /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = SwiftValidator/Core/ValidationError.swift; sourceTree = "<group>"; };
+		3CDDB13088443AA9A4F1D276790F3161 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		3D294BF218513EF8FDFEA2FAA25CC0DF /* RegexManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexManager.swift; path = PhoneNumberKit/RegexManager.swift; sourceTree = "<group>"; };
+		3E0F687CFAFA1035C2E0A095A6CCBE07 /* SwiftValidatorNew-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftValidatorNew-umbrella.h"; sourceTree = "<group>"; };
+		3E2F4DC53162E2DB11D6AD729249B42A /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberFormatter.swift; path = PhoneNumberKit/PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		3ED330FDA0B3D2C0F086B67D8399D4D7 /* PhoneNumberKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-umbrella.h"; sourceTree = "<group>"; };
+		40626FA753C713E8F202465F12CE9A9E /* AlphaRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaRule.swift; path = SwiftValidator/Rules/AlphaRule.swift; sourceTree = "<group>"; };
+		42B4E975D479C8481F460A6DD2617901 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		42EA3D9EA282EC2F19798CB2E85F5869 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		43A35152448B776F574D1B8EF8B5ABE4 /* PhoneNumberKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhoneNumberKit.release.xcconfig; sourceTree = "<group>"; };
+		43D22FB8CB6FD0935277D3B65E7F4D8A /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = PhoneNumberMetadata.json; path = PhoneNumberKit/Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
 		44317404B66DAEEB5F82B21971936C32 /* Pods-ALFormInput_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALFormInput_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		54D0D7B1D89E83F648C0AD5C03F84CCD /* ALFormInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALFormInput-umbrella.h"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		607DCCFE8081EEAE3B59528DB5CE69A9 /* ALFormInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALFormInput-prefix.pch"; sourceTree = "<group>"; };
-		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		67951CADE21E2D3334C1D9CDA2B0EF8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6B9E8CC52146E5EA26B6B178C6A577DA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ALFormInput/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		449441BA99E2545659025D9DE56A642F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		44AA15A1DF506691396687AE37DFD815 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		45E19134F319EDDDADE34215F969C7E7 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		466BC1D95DCBA292FBB5C1899E214508 /* ALFormInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALFormInput.modulemap; sourceTree = "<group>"; };
+		47DB66010A7B1545BB0B4996DF9A537F /* RegexRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexRule.swift; path = SwiftValidator/Rules/RegexRule.swift; sourceTree = "<group>"; };
+		47FA40B1A7266CE2E98C466F66C70F19 /* FullNameRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullNameRule.swift; path = SwiftValidator/Rules/FullNameRule.swift; sourceTree = "<group>"; };
+		4A07E317468AE8E9388A0E55325ED495 /* PhoneNumberRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberRule.swift; path = SwiftValidator/Rules/PhoneNumberRule.swift; sourceTree = "<group>"; };
+		4B7BE6C92A41E993F0A030B52F0A6761 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		4C362BBE0E90E1C5983CD4E6D893869C /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PhoneNumberKit/Constants.swift; sourceTree = "<group>"; };
+		4D202F9507D5CC0C4C6931C8D78A1F2E /* MetadataParsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataParsing.swift; path = PhoneNumberKit/MetadataParsing.swift; sourceTree = "<group>"; };
+		517F32E6622939A134E7628FFBFE20A2 /* SwiftValidatorNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftValidatorNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EA86983A0C3BF29ECD66201173E4D0 /* CountryCodePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryCodePickerViewController.swift; path = PhoneNumberKit/UI/CountryCodePickerViewController.swift; sourceTree = "<group>"; };
+		53A119651202AF5E853EFE3D3FA66BAF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		557F0EEE10DE7B049955DEA27E8613B8 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5862E8EC58402B5B1CE51B3A864A6DEE /* SwiftValidatorNew-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftValidatorNew-prefix.pch"; sourceTree = "<group>"; };
+		59FEE2BF634B6490A8E9635C40C8EE03 /* CreditCardType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardType.swift; sourceTree = "<group>"; };
+		5B3308CA71FB827672C3F66C3E119B3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFE62D68D120DD7B7C310CAC069138D /* ValidationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationDelegate.swift; path = SwiftValidator/Core/ValidationDelegate.swift; sourceTree = "<group>"; };
+		60917FE748E80454FA3C4746EA04D582 /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = PhoneNumberKit/Formatter.swift; sourceTree = "<group>"; };
+		69681285C13FB58876DD5727BCB2DC85 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4F854D34E301ED663D88A7C9DBA59F /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
 		6C60184155FCAF854609E47987670E9C /* Pods-ALFormInput_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALFormInput_Example-dummy.m"; sourceTree = "<group>"; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		6C9DCBAD13A0EE0DE7AC0F45343300F5 /* ALFormInput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALFormInput.debug.xcconfig; sourceTree = "<group>"; };
+		7470E8D39C804475B37A27C83BA4ECFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		749928CEC3C5921212CD5C779F43C2AF /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		78A34B0C52C9B56140E8A8E26B3E26FD /* ConfirmRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmRule.swift; path = SwiftValidator/Rules/ConfirmRule.swift; sourceTree = "<group>"; };
+		78FD1A008D18A9ADBEFE6FB4069C710D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		795762C5FEC3576877DE62E9345D68FF /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		7EB3486B9EBED9CF9DA4274C399720BB /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		8121EBA4B4642B6CE7FD4DF4AF828C00 /* Pods-ALFormInput_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALFormInput_Example-umbrella.h"; sourceTree = "<group>"; };
-		8133BEC118FF12C62FFF5E863A80B779 /* ALFormInput-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALFormInput-Info.plist"; sourceTree = "<group>"; };
-		8147FE3EF51CA0C7756575A3A81DDE42 /* ALFormInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALFormInput.modulemap; sourceTree = "<group>"; };
 		81645352AEF714E336304B56339018ED /* Pods-ALFormInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALFormInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		82E653F3F3B19830FB88F8846F16A064 /* Pods-ALFormInput_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ALFormInput_Example.modulemap"; sourceTree = "<group>"; };
-		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		8A3F8AB7253D389E6BBB7EAD0EF324DC /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
+		8F25EE3D650DD5F02B840AEEECBD1827 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		91CD094A88DB2838EB94EC1DC2F9F8E0 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		937E5988DDAF874C8592FD445B2A1DAC /* SwiftValidatorNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftValidatorNew.debug.xcconfig; sourceTree = "<group>"; };
 		97FC2AF4FDBCF69A041CDC6334A18558 /* Pods-ALFormInput_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALFormInput_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8DFE11027BDD2769BD505F086967167 /* Pods_ALFormInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALFormInput_Tests.framework; path = "Pods-ALFormInput_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE53577A6956F1DC00476AB3E7004059 /* ALFormInput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALFormInput.debug.xcconfig; sourceTree = "<group>"; };
-		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		982BFD566BFA708CADF6324F087B2EA4 /* SwiftValidatorNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftValidatorNew.release.xcconfig; sourceTree = "<group>"; };
+		9A19DF71EA93A27A15DBC61C244CDC22 /* MetadataTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataTypes.swift; path = PhoneNumberKit/MetadataTypes.swift; sourceTree = "<group>"; };
+		9B64749883B903805EAA54138A74B6EE /* PhoneNumberKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberKit.swift; path = PhoneNumberKit/PhoneNumberKit.swift; sourceTree = "<group>"; };
+		9D4B8611F1631ECF2D7775434B57E016 /* AL+UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AL+UITextField.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F42E743FAD17E34369881F02400D25D /* PhoneNumberRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneNumberRule.swift; sourceTree = "<group>"; };
+		A2F0E7620850C2862F7F77E91B3056B1 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		A65555363D577F25D2FD76E8DD5004EA /* IPV4Rule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPV4Rule.swift; path = SwiftValidator/Rules/IPV4Rule.swift; sourceTree = "<group>"; };
+		A6FE5C3C8136542D733EB5DECCF46111 /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
+		A8DFE11027BDD2769BD505F086967167 /* Pods_ALFormInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALFormInput_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E10D256906189FA70F04DA93081BE3 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		AA58031E96267B4471B7B492327FF289 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = SwiftValidator/Core/Validator.swift; sourceTree = "<group>"; };
+		ACEA3000D1A8E6113DB0B81D713DCB45 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		ADFEDC0D6C9D7BA897291C9EFE0E31B0 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECF02DFA5F9D350FB18BA594C069AC8 /* PhoneNumberKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhoneNumberKit-dummy.m"; sourceTree = "<group>"; };
+		B2EA8912AB42BDFEB1C395F23369F2DC /* Rule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rule.swift; path = SwiftValidator/Rules/Rule.swift; sourceTree = "<group>"; };
+		B3E1B81A84002E42403B230AA879ADB1 /* PhoneNumberKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PhoneNumberKit.modulemap; sourceTree = "<group>"; };
 		B507F3C6114B7583D19084F6EF9D8A99 /* Pods-ALFormInput_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALFormInput_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B72CBD74DB1D4011607CD10EB200B9A9 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		B8698B4D29E2D5A731127CAD5B9BF31D /* PartialFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartialFormatter.swift; path = PhoneNumberKit/PartialFormatter.swift; sourceTree = "<group>"; };
+		BA0C9346493824C388C6CF191261C59E /* ALFormInput-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALFormInput-Info.plist"; sourceTree = "<group>"; };
+		BC17CA7120F1E8A15CCBFEC7A32087BB /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		BC285F44B63B1654A1542117DD3A20AC /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		BD845B5526117795853BD093830CE371 /* PhoneNumberKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-prefix.pch"; sourceTree = "<group>"; };
+		C405F69CB113C06C2C783EBC672FB9A2 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		C4B3E186C8C62AD6BE5CA02720F08FB0 /* Pods-ALFormInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALFormInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		C68688A44E3B657071C18E25AA0993E6 /* PasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordRule.swift; path = SwiftValidator/Rules/PasswordRule.swift; sourceTree = "<group>"; };
+		C95C2170EC49EEDB71459009B1F2BB9F /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		CA9EDA1C8FC30DA2179CE0E588DE84D9 /* ReplacedExactLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplacedExactLengthRule.swift; sourceTree = "<group>"; };
+		CBFF881D4F1A1766424591934B52A532 /* CharacterSetRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterSetRule.swift; path = SwiftValidator/Rules/CharacterSetRule.swift; sourceTree = "<group>"; };
+		CE4F6BFBF29752F0477FDD7F739926E8 /* ALFormInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALFormInput-prefix.pch"; sourceTree = "<group>"; };
+		CEECF08C9F0B602F93657CB3DE538F43 /* AlphaNumericRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaNumericRule.swift; path = SwiftValidator/Rules/AlphaNumericRule.swift; sourceTree = "<group>"; };
 		D0AF53691C86106223FFB168DCC98C00 /* Pods-ALFormInput_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALFormInput_Tests-Info.plist"; sourceTree = "<group>"; };
-		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		E14E040D67D18301F2B037584DB8ABB7 /* ALFormInput.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ALFormInput.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1E877E210214FA60D93FC6AB72720AE /* ALFormInput.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ALFormInput.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2410E7A7842495B87504D2B2C3369CD /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D0A28CB047D767BF9C97A98BBDE94D /* ALValidatableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALValidatableTextField.swift; path = ALFormInput/Classes/ALValidatableTextField.swift; sourceTree = "<group>"; };
+		D8FC5E37406E2A67FEC923263F988437 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = PhoneNumberKit/UI/TextField.swift; sourceTree = "<group>"; };
+		DD0CF63647D4C61A21A3EC4725489C23 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		DE126C01D96D6178CBFAD6204B4F6EBA /* MinLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinLengthRule.swift; path = SwiftValidator/Rules/MinLengthRule.swift; sourceTree = "<group>"; };
+		DE6874AA28B8E852A8BADF653F13B461 /* ALFormInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALFormInput-umbrella.h"; sourceTree = "<group>"; };
 		E290AFFC9C5D8B1B235E41BEEA61F3DD /* Pods-ALFormInput_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ALFormInput_Tests.modulemap"; sourceTree = "<group>"; };
+		E6166FF65BC0F639774F440AB11F4119 /* ALValidatableConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALValidatableConfig.swift; path = ALFormInput/Classes/ALValidatableConfig.swift; sourceTree = "<group>"; };
+		E69B75703B4FBB945F5E263EB7353D97 /* ValidatorDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatorDictionary.swift; path = SwiftValidator/Core/ValidatorDictionary.swift; sourceTree = "<group>"; };
+		E8F3F705606D9E7A5E49ECE15235ACC9 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		EB22D1BE0FF0A738952CC7B45240645F /* EmailRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailRule.swift; path = SwiftValidator/Rules/EmailRule.swift; sourceTree = "<group>"; };
+		ED8482C641E555E665BA8B5DDA7A2495 /* ALFormInput.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALFormInput.release.xcconfig; sourceTree = "<group>"; };
+		EE5DF70248C896AAA3D8FAB9E6980BEB /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		F07CC23EB6B651C6DCD453BE2B1D8E26 /* TCIdentityRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TCIdentityRule.swift; sourceTree = "<group>"; };
 		F19D5F6E15D3F07CA18910421DD14BD2 /* Pods-ALFormInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALFormInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F2FD260D5F4C20B7570AB3051B63AF31 /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		FA61A776BDE3E8A3DDE3AF6CF76DBDFD /* AL+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AL+String.swift"; sourceTree = "<group>"; };
+		FA76A10DA8ED78B5B8297AB6EA5AE91D /* ParseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseManager.swift; path = PhoneNumberKit/ParseManager.swift; sourceTree = "<group>"; };
+		FDB73FFA60670E3AF59E587C2A3FE40D /* FloatRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatRule.swift; path = SwiftValidator/Rules/FloatRule.swift; sourceTree = "<group>"; };
 		FE2647214625266F9CDE0E7AFCBDE4D3 /* Pods-ALFormInput_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALFormInput_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FFAA970D0F823D6D2A95DEE5F08E52F0 /* ValidationRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRule.swift; path = SwiftValidator/Rules/ValidationRule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11811C0FD9579EA2F7452EA07273310B /* Frameworks */ = {
+		0427801F55692D4F48953DD55C5DC913 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933805C4A8695CC01870CFF02E32E474 /* Foundation.framework in Frameworks */,
+				BF5A48B66B431390707251E8DD9A3DA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53407D88FEE25A0B15D915D31491F602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C22E2E69F5F31B1A04706A20B0245D /* CoreTelephony.framework in Frameworks */,
+				335625C66E01BFF23C4CA2748877C788 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,11 +346,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8260D3423199542029324BA1CBC4C201 /* Frameworks */ = {
+		7D1DA5780CDCF8DC1E85519336D6D520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821EDC3B5822A6C91EFF15BA15456161 /* Foundation.framework in Frameworks */,
+				B7683E50DA595732A5545C8BB6D5E87D /* Foundation.framework in Frameworks */,
+				C31CB339B46400E229FD120A2D45FA07 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,53 +366,171 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E707245AA9FC16F416A3AA73DC0BC3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F7D1DB5EB493095E0F7A6EBAF46DDF /* Foundation.framework in Frameworks */,
+				B3388E3CE29E2157F34B113019B5F083 /* PhoneNumberKit.framework in Frameworks */,
+				7DC173B06500FA1810386C69E1AE97C2 /* SkyFloatingLabelTextField.framework in Frameworks */,
+				A96331691A956FA83FC2F9F7607171F7 /* SwiftValidatorNew.framework in Frameworks */,
+				A747A73FC92DF754970DDF58F403B050 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F650C7225ED7CE8D495A9EEF3BA28B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8769CA43084488FBEECF9C4FA78F0F07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B0C1495552BAB456185A3C4DB4AEB6F /* Support Files */ = {
+		19C34D0AC156DFFB2D4292DA187EF446 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8147FE3EF51CA0C7756575A3A81DDE42 /* ALFormInput.modulemap */,
-				25C2954D2BB3BFBB2F7CC48060E5FD8C /* ALFormInput-dummy.m */,
-				8133BEC118FF12C62FFF5E863A80B779 /* ALFormInput-Info.plist */,
-				607DCCFE8081EEAE3B59528DB5CE69A9 /* ALFormInput-prefix.pch */,
-				54D0D7B1D89E83F648C0AD5C03F84CCD /* ALFormInput-umbrella.h */,
-				AE53577A6956F1DC00476AB3E7004059 /* ALFormInput.debug.xcconfig */,
-				136B9CA870C78BDFB6D5B583F0B21FA2 /* ALFormInput.release.xcconfig */,
+				1215806FFC52B07C8C4837C09C507264 /* SwiftValidatorNew.modulemap */,
+				113DCDA246CDAF7B935ACA30FACDA6DF /* SwiftValidatorNew-dummy.m */,
+				1098E5FA35AFC0C2D7B52403777B29B8 /* SwiftValidatorNew-Info.plist */,
+				5862E8EC58402B5B1CE51B3A864A6DEE /* SwiftValidatorNew-prefix.pch */,
+				3E0F687CFAFA1035C2E0A095A6CCBE07 /* SwiftValidatorNew-umbrella.h */,
+				937E5988DDAF874C8592FD445B2A1DAC /* SwiftValidatorNew.debug.xcconfig */,
+				982BFD566BFA708CADF6324F087B2EA4 /* SwiftValidatorNew.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ALFormInput";
+			path = "../Target Support Files/SwiftValidatorNew";
 			sourceTree = "<group>";
 		};
-		4A940280C10A5D38F7856459711384F4 /* Pod */ = {
+		19F02C7B28FC761EDE3F498D5A57BC8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E14E040D67D18301F2B037584DB8ABB7 /* ALFormInput.podspec */,
-				35C5F8E430AFD19B610EE146B57CD771 /* LICENSE */,
-				67951CADE21E2D3334C1D9CDA2B0EF8C /* README.md */,
+				557F0EEE10DE7B049955DEA27E8613B8 /* PhoneNumberKit.framework */,
+				ADFEDC0D6C9D7BA897291C9EFE0E31B0 /* SkyFloatingLabelTextField.framework */,
+				03376193628525594268844CFFEEB2EA /* SwiftValidatorNew.framework */,
+				3C9B717E7B7F701D1274653FCB4C1388 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26B9DBB5EFC1D83B57284950433C1B84 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				51EA86983A0C3BF29ECD66201173E4D0 /* CountryCodePickerViewController.swift */,
+				D8FC5E37406E2A67FEC923263F988437 /* TextField.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		2BC51EB0095329D06DAF04F37B0DA03F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43D22FB8CB6FD0935277D3B65E7F4D8A /* PhoneNumberMetadata.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2F744893EEB12C9DA45AA1258E1D1A8C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D1E877E210214FA60D93FC6AB72720AE /* ALFormInput.podspec */,
+				7470E8D39C804475B37A27C83BA4ECFD /* LICENSE */,
+				32E86BE24D5E502F35BA3E403CEC3EA5 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+		35974FD95D91FC9FDA165AF7CCF09398 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
-				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
-				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
-				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
-				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
-				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
-				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
-				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
-				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
-				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
-				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
-				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
-				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
-				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+				B3E1B81A84002E42403B230AA879ADB1 /* PhoneNumberKit.modulemap */,
+				AECF02DFA5F9D350FB18BA594C069AC8 /* PhoneNumberKit-dummy.m */,
+				1052D3F18F3BFD14FB41194DF97B94A1 /* PhoneNumberKit-Info.plist */,
+				BD845B5526117795853BD093830CE371 /* PhoneNumberKit-prefix.pch */,
+				3ED330FDA0B3D2C0F086B67D8399D4D7 /* PhoneNumberKit-umbrella.h */,
+				29FC3D9726810FE6D6500344AAAF2AEB /* PhoneNumberKit.debug.xcconfig */,
+				43A35152448B776F574D1B8EF8B5ABE4 /* PhoneNumberKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PhoneNumberKit";
+			sourceTree = "<group>";
+		};
+		35C0C8D4ECC1C920DF8D6CEC233E5DB2 /* ValidatorRules */ = {
+			isa = PBXGroup;
+			children = (
+				24C53502D9D427F59D585996037825F7 /* CardNumberRule.swift */,
+				59FEE2BF634B6490A8E9635C40C8EE03 /* CreditCardType.swift */,
+				0A6A7C2F070DFBF0007333B8DF80A330 /* CustomPhoneNumberRule.swift */,
+				9F42E743FAD17E34369881F02400D25D /* PhoneNumberRule.swift */,
+				CA9EDA1C8FC30DA2179CE0E588DE84D9 /* ReplacedExactLengthRule.swift */,
+				F07CC23EB6B651C6DCD453BE2B1D8E26 /* TCIdentityRule.swift */,
+			);
+			name = ValidatorRules;
+			path = ALFormInput/Classes/ValidatorRules;
+			sourceTree = "<group>";
+		};
+		3C9B717E7B7F701D1274653FCB4C1388 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53A119651202AF5E853EFE3D3FA66BAF /* CoreTelephony.framework */,
+				56048B2D45DD3321376B1F57715B1BEA /* Foundation.framework */,
+				78FD1A008D18A9ADBEFE6FB4069C710D /* QuartzCore.framework */,
+				449441BA99E2545659025D9DE56A642F /* UIKit.framework */,
+				5B3308CA71FB827672C3F66C3E119B3D /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43BF03C86E0A18A5A0B4245A1445659F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8F25EE3D650DD5F02B840AEEECBD1827 /* FBSnapshotTestCase.h */,
+				2BC5B207F323DCC055FA92571EDFFD3D /* FBSnapshotTestCase.m */,
+				092D5EA9991C11D9AB6CFE190C2C58BB /* FBSnapshotTestCasePlatform.h */,
+				B72CBD74DB1D4011607CD10EB200B9A9 /* FBSnapshotTestCasePlatform.m */,
+				42EA3D9EA282EC2F19798CB2E85F5869 /* FBSnapshotTestController.h */,
+				D2410E7A7842495B87504D2B2C3369CD /* FBSnapshotTestController.m */,
+				749928CEC3C5921212CD5C779F43C2AF /* UIApplication+StrictKeyWindow.h */,
+				1F75EA365C1DAFB0E51F3C6824297D39 /* UIApplication+StrictKeyWindow.m */,
+				C405F69CB113C06C2C783EBC672FB9A2 /* UIImage+Compare.h */,
+				7EB3486B9EBED9CF9DA4274C399720BB /* UIImage+Compare.m */,
+				BC285F44B63B1654A1542117DD3A20AC /* UIImage+Diff.h */,
+				DD0CF63647D4C61A21A3EC4725489C23 /* UIImage+Diff.m */,
+				42B4E975D479C8481F460A6DD2617901 /* UIImage+Snapshot.h */,
+				A2F0E7620850C2862F7F77E91B3056B1 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		4AC50C7127878E1F2586C34D2B713C82 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C8AAB843F8E9FF08790DA91B8B460A1 /* ALFormInput */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D7047B6E0FB1309A7AE73B9DCF917E9 /* PhoneNumberKitCore */ = {
+			isa = PBXGroup;
+			children = (
+				4C362BBE0E90E1C5983CD4E6D893869C /* Constants.swift */,
+				60917FE748E80454FA3C4746EA04D582 /* Formatter.swift */,
+				19EEF262A39514D7147B6515C753CFEE /* MetadataManager.swift */,
+				4D202F9507D5CC0C4C6931C8D78A1F2E /* MetadataParsing.swift */,
+				9A19DF71EA93A27A15DBC61C244CDC22 /* MetadataTypes.swift */,
+				290D4656F85DE8D9712528D2CF7FCE83 /* NSRegularExpression+Swift.swift */,
+				FA76A10DA8ED78B5B8297AB6EA5AE91D /* ParseManager.swift */,
+				B8698B4D29E2D5A731127CAD5B9BF31D /* PartialFormatter.swift */,
+				36896D9F99426B2556AFD6405E1D050C /* PhoneNumber.swift */,
+				3E2F4DC53162E2DB11D6AD729249B42A /* PhoneNumberFormatter.swift */,
+				9B64749883B903805EAA54138A74B6EE /* PhoneNumberKit.swift */,
+				8A3F8AB7253D389E6BBB7EAD0EF324DC /* PhoneNumberParser.swift */,
+				3D294BF218513EF8FDFEA2FAA25CC0DF /* RegexManager.swift */,
+				2BC51EB0095329D06DAF04F37B0DA03F /* Resources */,
+			);
+			name = PhoneNumberKitCore;
 			sourceTree = "<group>";
 		};
 		4E2F19726D9A22800B57F910E2E44C48 /* Pods-ALFormInput_Example */ = {
@@ -229,34 +550,55 @@
 			path = "Target Support Files/Pods-ALFormInput_Example";
 			sourceTree = "<group>";
 		};
-		6BED55B8B01B4B5A13E7596FD573C879 /* ALFormInput */ = {
+		5C8AAB843F8E9FF08790DA91B8B460A1 /* ALFormInput */ = {
 			isa = PBXGroup;
 			children = (
-				6B9E8CC52146E5EA26B6B178C6A577DA /* ReplaceMe.swift */,
-				4A940280C10A5D38F7856459711384F4 /* Pod */,
-				2B0C1495552BAB456185A3C4DB4AEB6F /* Support Files */,
+				E6166FF65BC0F639774F440AB11F4119 /* ALValidatableConfig.swift */,
+				D7D0A28CB047D767BF9C97A98BBDE94D /* ALValidatableTextField.swift */,
+				309DC212474D057744E2D2147D6A9696 /* ALValidatableTextFieldType.swift */,
+				D9D1AB391F3B5CC4B6B36F4EFCD6730A /* Extensions */,
+				2F744893EEB12C9DA45AA1258E1D1A8C /* Pod */,
+				EF9AF974D59599A6C06B9A16E5F98FBD /* Support Files */,
+				35C0C8D4ECC1C920DF8D6CEC233E5DB2 /* ValidatorRules */,
 			);
 			name = ALFormInput;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+		70554DFC050E394F02B8D451F7E2B4C3 /* SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+				14A9CDB54ABC0977735593C2825CFC8D /* SkyFloatingLabelTextField.swift */,
+				ACEA3000D1A8E6113DB0B81D713DCB45 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				91CD094A88DB2838EB94EC1DC2F9F8E0 /* UITextField+fixCaretPosition.swift */,
+				E109AAE595F16D7124BCE8F46C323953 /* Support Files */,
 			);
-			name = iOS;
+			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
-		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+		71E851F193727C0429C991DC05DDE8EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+				45E19134F319EDDDADE34215F969C7E7 /* FBSnapshotTestCase.modulemap */,
+				A9E10D256906189FA70F04DA93081BE3 /* FBSnapshotTestCase-dummy.m */,
+				4B7BE6C92A41E993F0A030B52F0A6761 /* FBSnapshotTestCase-Info.plist */,
+				EE5DF70248C896AAA3D8FAB9E6980BEB /* FBSnapshotTestCase-prefix.pch */,
+				1AA36B989BAB9E56CED5A021946BA497 /* FBSnapshotTestCase-umbrella.h */,
+				BC17CA7120F1E8A15CCBFEC7A32087BB /* FBSnapshotTestCase.debug.xcconfig */,
+				E8F3F705606D9E7A5E49ECE15235ACC9 /* FBSnapshotTestCase.release.xcconfig */,
 			);
-			name = SwiftSupport;
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		9EE9FFAF3B724B487BB5ED1B992D67DD /* PhoneNumberKit */ = {
+			isa = PBXGroup;
+			children = (
+				4D7047B6E0FB1309A7AE73B9DCF917E9 /* PhoneNumberKitCore */,
+				35974FD95D91FC9FDA165AF7CCF09398 /* Support Files */,
+				26B9DBB5EFC1D83B57284950433C1B84 /* UIKit */,
+			);
+			path = PhoneNumberKit;
 			sourceTree = "<group>";
 		};
 		A6ECCCA0FCA5B231D13FD4B1B76D80A4 /* Targets Support Files */ = {
@@ -268,77 +610,132 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B49E96731D6121CB46421764C7D09C57 /* Development Pods */ = {
+		ADAC0FF82D17A803D7EFA49285AE8E4D /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				6BED55B8B01B4B5A13E7596FD573C879 /* ALFormInput */,
+				44AA15A1DF506691396687AE37DFD815 /* SwiftSupport.swift */,
 			);
-			name = "Development Pods";
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+		B411DF27431485DACFE963AB1483EC65 /* SwiftValidatorNew */ = {
 			isa = PBXGroup;
 			children = (
-				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
-				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
-				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
-				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
-				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
-				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
-				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+				CEECF08C9F0B602F93657CB3DE538F43 /* AlphaNumericRule.swift */,
+				40626FA753C713E8F202465F12CE9A9E /* AlphaRule.swift */,
+				CBFF881D4F1A1766424591934B52A532 /* CharacterSetRule.swift */,
+				78A34B0C52C9B56140E8A8E26B3E26FD /* ConfirmRule.swift */,
+				EB22D1BE0FF0A738952CC7B45240645F /* EmailRule.swift */,
+				10DEC5131995B0E02865D3B572C6DFBA /* ExactLengthRule.swift */,
+				FDB73FFA60670E3AF59E587C2A3FE40D /* FloatRule.swift */,
+				47FA40B1A7266CE2E98C466F66C70F19 /* FullNameRule.swift */,
+				1A66AC11CFEADDDFD674D9E0738E209D /* HexColorRule.swift */,
+				A65555363D577F25D2FD76E8DD5004EA /* IPV4Rule.swift */,
+				0FB52AB8880EB2E6628418C5857F9930 /* ISBNRule.swift */,
+				1199A6D06084B81103A73C535BE5D90A /* MaxLengthRule.swift */,
+				DE126C01D96D6178CBFAD6204B4F6EBA /* MinLengthRule.swift */,
+				C68688A44E3B657071C18E25AA0993E6 /* PasswordRule.swift */,
+				4A07E317468AE8E9388A0E55325ED495 /* PhoneNumberRule.swift */,
+				47DB66010A7B1545BB0B4996DF9A537F /* RegexRule.swift */,
+				100CB67DE8EF4AEA1E9816088400FC28 /* RequiredRule.swift */,
+				B2EA8912AB42BDFEB1C395F23369F2DC /* Rule.swift */,
+				20FDEEF1C93C8D519852D733AB7DA4D2 /* Validatable.swift */,
+				5DFE62D68D120DD7B7C310CAC069138D /* ValidationDelegate.swift */,
+				3B6F2DDE6BD9C8C064856D052122545C /* ValidationError.swift */,
+				FFAA970D0F823D6D2A95DEE5F08E52F0 /* ValidationRule.swift */,
+				AA58031E96267B4471B7B492327FF289 /* Validator.swift */,
+				E69B75703B4FBB945F5E263EB7353D97 /* ValidatorDictionary.swift */,
+				313E2576146CBE20614D1677EDB494C8 /* ZipCodeRule.swift */,
+				19C34D0AC156DFFB2D4292DA187EF446 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			path = SwiftValidatorNew;
 			sourceTree = "<group>";
 		};
-		B839F7AB37211AB4BBEFFAE89C47008F /* Products */ = {
+		BF64BF5F993F456C9BDD739A82BBB6B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				050BBEAE92EAACF5E9FFBF640E8566AA /* ALFormInput.framework */,
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				69681285C13FB58876DD5727BCB2DC85 /* PhoneNumberKit.framework */,
 				019A4064F775D763CF1A6E6474E1F6F8 /* Pods_ALFormInput_Example.framework */,
 				A8DFE11027BDD2769BD505F086967167 /* Pods_ALFormInput_Tests.framework */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
+				517F32E6622939A134E7628FFBFE20A2 /* SwiftValidatorNew.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		CB628E457E252B02AFE72BC22A6727B7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
+				F96BABE425B1957BB83857552CF20BF1 /* FBSnapshotTestCase */,
+				9EE9FFAF3B724B487BB5ED1B992D67DD /* PhoneNumberKit */,
+				70554DFC050E394F02B8D451F7E2B4C3 /* SkyFloatingLabelTextField */,
+				B411DF27431485DACFE963AB1483EC65 /* SwiftValidatorNew */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				4BA2479549DD918290454B1CDCD0B92B /* Core */,
-				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
-				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B49E96731D6121CB46421764C7D09C57 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				B839F7AB37211AB4BBEFFAE89C47008F /* Products */,
+				4AC50C7127878E1F2586C34D2B713C82 /* Development Pods */,
+				19F02C7B28FC761EDE3F498D5A57BC8E /* Frameworks */,
+				CB628E457E252B02AFE72BC22A6727B7 /* Pods */,
+				BF64BF5F993F456C9BDD739A82BBB6B4 /* Products */,
 				A6ECCCA0FCA5B231D13FD4B1B76D80A4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		D9D1AB391F3B5CC4B6B36F4EFCD6730A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+				FA61A776BDE3E8A3DDE3AF6CF76DBDFD /* AL+String.swift */,
+				9D4B8611F1631ECF2D7775434B57E016 /* AL+UITextField.swift */,
 			);
-			name = Pods;
+			name = Extensions;
+			path = ALFormInput/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		E109AAE595F16D7124BCE8F46C323953 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95C2170EC49EEDB71459009B1F2BB9F /* SkyFloatingLabelTextField.modulemap */,
+				795762C5FEC3576877DE62E9345D68FF /* SkyFloatingLabelTextField-dummy.m */,
+				F2FD260D5F4C20B7570AB3051B63AF31 /* SkyFloatingLabelTextField-Info.plist */,
+				2AF21795BE2BF5BC1582717F80C92053 /* SkyFloatingLabelTextField-prefix.pch */,
+				3CDDB13088443AA9A4F1D276790F3161 /* SkyFloatingLabelTextField-umbrella.h */,
+				A6FE5C3C8136542D733EB5DECCF46111 /* SkyFloatingLabelTextField.debug.xcconfig */,
+				6C4F854D34E301ED663D88A7C9DBA59F /* SkyFloatingLabelTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		EF9AF974D59599A6C06B9A16E5F98FBD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				466BC1D95DCBA292FBB5C1899E214508 /* ALFormInput.modulemap */,
+				31072D033A7E5872F42937E3D592C452 /* ALFormInput-dummy.m */,
+				BA0C9346493824C388C6CF191261C59E /* ALFormInput-Info.plist */,
+				CE4F6BFBF29752F0477FDD7F739926E8 /* ALFormInput-prefix.pch */,
+				DE6874AA28B8E852A8BADF653F13B461 /* ALFormInput-umbrella.h */,
+				6C9DCBAD13A0EE0DE7AC0F45343300F5 /* ALFormInput.debug.xcconfig */,
+				ED8482C641E555E665BA8B5DDA7A2495 /* ALFormInput.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ALFormInput";
+			sourceTree = "<group>";
+		};
+		F96BABE425B1957BB83857552CF20BF1 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				43BF03C86E0A18A5A0B4245A1445659F /* Core */,
+				71E851F193727C0429C991DC05DDE8EA /* Support Files */,
+				ADAC0FF82D17A803D7EFA49285AE8E4D /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		F99953DA1BBBFA360A162C327F125C72 /* Pods-ALFormInput_Tests */ = {
@@ -361,6 +758,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1FBC9FF4EF7E405584A1140EE9452D62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1121DE4C9EBD94126BF1EBCE08159E57 /* ALFormInput-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,19 +781,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A3A09B4D0F06F799819607AC074F643 /* Headers */ = {
+		66D1ADA01BEE03B7BCCF52CF1CD5D0E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				397DFE212F51FBA1F43E193CF4AF858E /* ALFormInput-umbrella.h in Headers */,
+				61D520479CE19E32D0AEF4F6860BDBFB /* Pods-ALFormInput_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EAB2EA8F07D3F13A9AE64EDCC52D555 /* Headers */ = {
+		71660290DFC2F269A42C9173F59ED6E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE2E18AF6149B397717F193BD582EF7 /* Pods-ALFormInput_Example-umbrella.h in Headers */,
+				0A0A7B76F15F6C872602064EF2BCD546 /* SwiftValidatorNew-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +805,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC92C5B935999669831997F5D5D45B03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B411515A59650DD3FC53E45C0A4A8 /* PhoneNumberKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CA9BE61E8C118955E9B1DCD2AFB0A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332CE36CBCB81C90516AF934DF157583 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -408,7 +829,7 @@
 			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
 				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				D80A51BD628282C84AD14ED63EADA00B /* Sources */,
 				E581515110D66F94F80A6937831489A1 /* Frameworks */,
 				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
 			);
@@ -421,18 +842,39 @@
 			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D1DD6B09FA24C1B2352070E110A42877 /* ALFormInput */ = {
+		C942A9CCE5CF382E8053D9757DA6249D /* PhoneNumberKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF1476F371C87B37E89CA87B3A9A8BD7 /* Build configuration list for PBXNativeTarget "ALFormInput" */;
+			buildConfigurationList = F141C8115EC636006571905EAB0082E0 /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */;
 			buildPhases = (
-				3A3A09B4D0F06F799819607AC074F643 /* Headers */,
-				63FA46EC6BFBDD3D1C97DAA80C719B49 /* Sources */,
-				11811C0FD9579EA2F7452EA07273310B /* Frameworks */,
-				274484FAC3DA5479E7CAA91B93BABE66 /* Resources */,
+				AC92C5B935999669831997F5D5D45B03 /* Headers */,
+				47AAE6F52C45516A9851610E5F865064 /* Sources */,
+				53407D88FEE25A0B15D915D31491F602 /* Frameworks */,
+				CF3BB3563025CE78797ACBDE4C3603CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = PhoneNumberKit;
+			productName = PhoneNumberKit;
+			productReference = 69681285C13FB58876DD5727BCB2DC85 /* PhoneNumberKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1DD6B09FA24C1B2352070E110A42877 /* ALFormInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC8ED32CAF1052D952236A93B8CAE9D /* Build configuration list for PBXNativeTarget "ALFormInput" */;
+			buildPhases = (
+				1FBC9FF4EF7E405584A1140EE9452D62 /* Headers */,
+				6A130232CEE335B21B8837EF92DF4901 /* Sources */,
+				E707245AA9FC16F416A3AA73DC0BC3BD /* Frameworks */,
+				59AC12208D9D53CC40A51519D90ED98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E32ACAC5FA2D7C5D4E0023CBBE74FE9 /* PBXTargetDependency */,
+				73D175B6F217B079A4FAED2F424834ED /* PBXTargetDependency */,
+				3786078E17A32D1FFAFCCECB7C64EA05 /* PBXTargetDependency */,
 			);
 			name = ALFormInput;
 			productName = ALFormInput;
@@ -459,23 +901,62 @@
 			productReference = A8DFE11027BDD2769BD505F086967167 /* Pods_ALFormInput_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E25486674EC1470544AFA7AD4B613F45 /* Pods-ALFormInput_Example */ = {
+		DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78FA2286C21BA9F378DE3F908375BA21 /* Build configuration list for PBXNativeTarget "Pods-ALFormInput_Example" */;
+			buildConfigurationList = FBD97559E11CF55D40CAD63D484A9077 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
 			buildPhases = (
-				6EAB2EA8F07D3F13A9AE64EDCC52D555 /* Headers */,
-				018F6F3333283D33E62543D9C49A495D /* Sources */,
-				8260D3423199542029324BA1CBC4C201 /* Frameworks */,
-				B73230353578D01712A91DAD6492D133 /* Resources */,
+				F8CA9BE61E8C118955E9B1DCD2AFB0A4 /* Headers */,
+				5FF9152C55FDCF25D53EE5850142F6B7 /* Sources */,
+				0427801F55692D4F48953DD55C5DC913 /* Frameworks */,
+				B97A5B8145D9E0BBE4CA565BF3D0188B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2CC724F12DA3BC8B6B65109E35B5FBFE /* PBXTargetDependency */,
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E25486674EC1470544AFA7AD4B613F45 /* Pods-ALFormInput_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A547FB0791DC3DFD7B4CBC7826903D /* Build configuration list for PBXNativeTarget "Pods-ALFormInput_Example" */;
+			buildPhases = (
+				66D1ADA01BEE03B7BCCF52CF1CD5D0E6 /* Headers */,
+				29D1E86B03BBC919D741C74735604932 /* Sources */,
+				F650C7225ED7CE8D495A9EEF3BA28B6A /* Frameworks */,
+				7B4268AD86EA49D2DFDC9C10B8536EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09E8B67FF5EC61D4D179959756400C26 /* PBXTargetDependency */,
+				AC46E55D2791DF20297D1037AD7CBE4D /* PBXTargetDependency */,
+				EFE40C993AB17BB13AD3A82EB3763F42 /* PBXTargetDependency */,
+				0CBB4287642FD48B25BCFE166B5B93F6 /* PBXTargetDependency */,
 			);
 			name = "Pods-ALFormInput_Example";
 			productName = "Pods-ALFormInput_Example";
 			productReference = 019A4064F775D763CF1A6E6474E1F6F8 /* Pods_ALFormInput_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F452D4AD6E1DAE1245A7270C48A8D342 /* SwiftValidatorNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF28C24148D874A58BC436050B757E9C /* Build configuration list for PBXNativeTarget "SwiftValidatorNew" */;
+			buildPhases = (
+				71660290DFC2F269A42C9173F59ED6E6 /* Headers */,
+				675BFC2723C3C9DDC4FB3A5EE57F322A /* Sources */,
+				7D1DA5780CDCF8DC1E85519336D6D520 /* Frameworks */,
+				9BD9D871F96FEC9625DA653C2248BBE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftValidatorNew;
+			productName = SwiftValidatorNew;
+			productReference = 517F32E6622939A134E7628FFBFE20A2 /* SwiftValidatorNew.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -485,7 +966,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1140;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -496,20 +977,23 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B839F7AB37211AB4BBEFFAE89C47008F /* Products */;
+			productRefGroup = BF64BF5F993F456C9BDD739A82BBB6B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D1DD6B09FA24C1B2352070E110A42877 /* ALFormInput */,
 				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				C942A9CCE5CF382E8053D9757DA6249D /* PhoneNumberKit */,
 				E25486674EC1470544AFA7AD4B613F45 /* Pods-ALFormInput_Example */,
 				D8CD9804D65C9956A062299C314C8E91 /* Pods-ALFormInput_Tests */,
+				DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */,
+				F452D4AD6E1DAE1245A7270C48A8D342 /* SwiftValidatorNew */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		274484FAC3DA5479E7CAA91B93BABE66 /* Resources */ = {
+		59AC12208D9D53CC40A51519D90ED98F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -523,6 +1007,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B4268AD86EA49D2DFDC9C10B8536EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92703B5FDF29AED5751AEC370F9537C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -530,21 +1021,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B73230353578D01712A91DAD6492D133 /* Resources */ = {
+		9BD9D871F96FEC9625DA653C2248BBE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B97A5B8145D9E0BBE4CA565BF3D0188B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3BB3563025CE78797ACBDE4C3603CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7588457E9C8F439869253EB211F7461 /* PhoneNumberMetadata.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		018F6F3333283D33E62543D9C49A495D /* Sources */ = {
+		29D1E86B03BBC919D741C74735604932 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CA5086A7BBE3E819734B3239FE8D5B /* Pods-ALFormInput_Example-dummy.m in Sources */,
+				8BE801AB7FFB30BD26645CABCBCAFBFF /* Pods-ALFormInput_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,39 +1062,128 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63FA46EC6BFBDD3D1C97DAA80C719B49 /* Sources */ = {
+		47AAE6F52C45516A9851610E5F865064 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				652F5E692578229C5B73F282BA0997E4 /* ALFormInput-dummy.m in Sources */,
-				50EA7E6DCBC90289EB51CF5D9B4DDEB3 /* ReplaceMe.swift in Sources */,
+				4C10D9BF4E0B8C6CE34C92C48ACA0159 /* Constants.swift in Sources */,
+				D1B9FC2425036F29E5AA5470F9AAE1D8 /* CountryCodePickerViewController.swift in Sources */,
+				0BDEE0BBDE468B2748235EE5D0DB1285 /* Formatter.swift in Sources */,
+				66D5189B76643CA382618AD681CBE25C /* MetadataManager.swift in Sources */,
+				9A624D9B43FB6AF30373C524415CCD2E /* MetadataParsing.swift in Sources */,
+				A563E48D91B8DABDC55EEBC5DBF0E280 /* MetadataTypes.swift in Sources */,
+				F864130E3932F6010AE76786D294792C /* NSRegularExpression+Swift.swift in Sources */,
+				AD9DEFDC8146DB2629E3228A4552D14A /* ParseManager.swift in Sources */,
+				87C3284F92B1B80A0D1FBED6D86B9A87 /* PartialFormatter.swift in Sources */,
+				7AE6396A1E8F3F78A00A808CD8D1B13D /* PhoneNumber.swift in Sources */,
+				4E0B93CFCB118B3D54C5A327B4FC7C2F /* PhoneNumberFormatter.swift in Sources */,
+				A8A1C19C099B33447E2547175650E0D1 /* PhoneNumberKit-dummy.m in Sources */,
+				88400071100DB2C68F583554059A83CA /* PhoneNumberKit.swift in Sources */,
+				56989A91B64F5CF6C103D951752333BC /* PhoneNumberParser.swift in Sources */,
+				1078B3BA6A101DAD802C907CF956B851 /* RegexManager.swift in Sources */,
+				13B8E4299F40B08795D6F6A2DA23DF60 /* TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+		5FF9152C55FDCF25D53EE5850142F6B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+				14ADBAECBDFD8E799325C4FFC22A4611 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				D00FBD8151206DB57DDD7A5D5264ABC4 /* SkyFloatingLabelTextField.swift in Sources */,
+				50B24D81CDC8DAB9ED9821FD883086BF /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				E4F2B4C11E3DF63B0C7DB7245397C7CB /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675BFC2723C3C9DDC4FB3A5EE57F322A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD3E9D3B15C2F0639F644D20814336E /* AlphaNumericRule.swift in Sources */,
+				23C2D3BDCFECB43F0B153263C8145BAB /* AlphaRule.swift in Sources */,
+				F40CF09F1B8EE0C3CA65DF821B3DB768 /* CharacterSetRule.swift in Sources */,
+				FFC65E99CB2C31D7A711268696E53C47 /* ConfirmRule.swift in Sources */,
+				B254ED8206B7CBDC4997F26AD2CC3124 /* EmailRule.swift in Sources */,
+				FCA071C4153CCA5A5DD03E014C1CAA0F /* ExactLengthRule.swift in Sources */,
+				B82468A8C6A1BFD8F068FB14312CD541 /* FloatRule.swift in Sources */,
+				9A108D0F763F4AA9FA271147014AA890 /* FullNameRule.swift in Sources */,
+				B70585EFDCC0FCAA6DA4997089113200 /* HexColorRule.swift in Sources */,
+				C56676FA21AA4894714F3B28068D7EEA /* IPV4Rule.swift in Sources */,
+				F5A5A21557051286129CEE3A28C112ED /* ISBNRule.swift in Sources */,
+				6154C72518C8E4F2FD3107B2014E8FF9 /* MaxLengthRule.swift in Sources */,
+				278FFEC0599D01015CFE42EECB1B5FE4 /* MinLengthRule.swift in Sources */,
+				3D71957A9DE98471EDCC8ADA50BBFDE0 /* PasswordRule.swift in Sources */,
+				9D183B4EF1CF0D53168176440DE44BF4 /* PhoneNumberRule.swift in Sources */,
+				F2F2DB0D7F149CE93F29B8B7D415DFEF /* RegexRule.swift in Sources */,
+				B2B9E94911759F56F7C72D939EBC6928 /* RequiredRule.swift in Sources */,
+				E8860CB351B74C46E7C50B2621E7BD99 /* Rule.swift in Sources */,
+				4C3565423F845ED18598958484AA7B58 /* SwiftValidatorNew-dummy.m in Sources */,
+				13AEE5AA8CB9F867DD51C1F0D95725E4 /* Validatable.swift in Sources */,
+				9B52A747BA5BE9232A25F6BDF86ACBED /* ValidationDelegate.swift in Sources */,
+				72A7602A2E8BCF0D4A6AB72FE05D7C8B /* ValidationError.swift in Sources */,
+				D646BBD0892B7339F54B8E63FB2D317B /* ValidationRule.swift in Sources */,
+				85DC9C94D114EB1EB4F045585CE8527B /* Validator.swift in Sources */,
+				0903BA6B80484307984E4F507BCE1967 /* ValidatorDictionary.swift in Sources */,
+				44F4C0B4472C30958C0C2719EB12872F /* ZipCodeRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A130232CEE335B21B8837EF92DF4901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B1A9F998ED2E2114345C95531F2155 /* AL+String.swift in Sources */,
+				3AE009D14563CEBD54BB2A0A5DC922F2 /* AL+UITextField.swift in Sources */,
+				F08BDBEABDBAD78F7EB8BBCE544B4835 /* ALFormInput-dummy.m in Sources */,
+				69AC112DE6B4DD7282BD70599198B1EF /* ALValidatableConfig.swift in Sources */,
+				02648CA0CDE9D3E5A719D1DD932A0409 /* ALValidatableTextField.swift in Sources */,
+				16A089BE860BF719433ABF41C3170E77 /* ALValidatableTextFieldType.swift in Sources */,
+				E949E1D9DD1BB479316331EA70BC1184 /* CardNumberRule.swift in Sources */,
+				048A2E7F7FA91ED2C7559BDE54AFD44C /* CreditCardType.swift in Sources */,
+				66F385CD1C74A238432CC2CC857740B8 /* CustomPhoneNumberRule.swift in Sources */,
+				738DC548A39CFDFFC5817F5025A3F634 /* PhoneNumberRule.swift in Sources */,
+				3FCEA0136CB778076C0C5B1F7302B817 /* ReplacedExactLengthRule.swift in Sources */,
+				1D6F6D47F1861BDF0A858A975DD684AB /* TCIdentityRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80A51BD628282C84AD14ED63EADA00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318E95B0689A3507D9608B5948548910 /* FBSnapshotTestCase-dummy.m in Sources */,
+				77E1B0E7D6FF466CE46E2CFED14DFED1 /* FBSnapshotTestCase.m in Sources */,
+				6650C095330F67C112A1F281A932EA99 /* FBSnapshotTestCasePlatform.m in Sources */,
+				1BAC4F76B70DCFDD6C95C9887C999D03 /* FBSnapshotTestController.m in Sources */,
+				79E3149A20D0D86A5861BF48CB37588B /* SwiftSupport.swift in Sources */,
+				9F7728F6CC5DD4BAE0597E80904E6235 /* UIApplication+StrictKeyWindow.m in Sources */,
+				BFCD27EA1513719252030E76A60B49D9 /* UIImage+Compare.m in Sources */,
+				53317B04AB548F3568225C7390E37C26 /* UIImage+Diff.m in Sources */,
+				62044ECA464FDD7C5C9CDC7EC17DB505 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2CC724F12DA3BC8B6B65109E35B5FBFE /* PBXTargetDependency */ = {
+		09E8B67FF5EC61D4D179959756400C26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ALFormInput;
 			target = D1DD6B09FA24C1B2352070E110A42877 /* ALFormInput */;
-			targetProxy = 5C6BD8C51D2AEB1CAD6711CADC93ADDD /* PBXContainerItemProxy */;
+			targetProxy = 5EBE6D1C833C55A2307B0D5E64F8B58B /* PBXContainerItemProxy */;
+		};
+		0CBB4287642FD48B25BCFE166B5B93F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftValidatorNew;
+			target = F452D4AD6E1DAE1245A7270C48A8D342 /* SwiftValidatorNew */;
+			targetProxy = BB8C5E8616764FE95E681E2D4D5F8926 /* PBXContainerItemProxy */;
+		};
+		3786078E17A32D1FFAFCCECB7C64EA05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftValidatorNew;
+			target = F452D4AD6E1DAE1245A7270C48A8D342 /* SwiftValidatorNew */;
+			targetProxy = 94F36D6464D1B7C1477855CEBAB8B138 /* PBXContainerItemProxy */;
 		};
 		3ECB89B3BC91F1C36D5989A56B7D62C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -602,12 +1197,36 @@
 			target = E25486674EC1470544AFA7AD4B613F45 /* Pods-ALFormInput_Example */;
 			targetProxy = D80A1B13F0816C7B85E5AF4A6E724E04 /* PBXContainerItemProxy */;
 		};
+		6E32ACAC5FA2D7C5D4E0023CBBE74FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneNumberKit;
+			target = C942A9CCE5CF382E8053D9757DA6249D /* PhoneNumberKit */;
+			targetProxy = 84366D16A968ED63CF9EB63A2E91F60C /* PBXContainerItemProxy */;
+		};
+		73D175B6F217B079A4FAED2F424834ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = DBD49D1CBA8C3006851524ACE3560CDB /* PBXContainerItemProxy */;
+		};
+		AC46E55D2791DF20297D1037AD7CBE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneNumberKit;
+			target = C942A9CCE5CF382E8053D9757DA6249D /* PhoneNumberKit */;
+			targetProxy = 9A99B72528BED96CE85E03AED005C56A /* PBXContainerItemProxy */;
+		};
+		EFE40C993AB17BB13AD3A82EB3763F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 9CCB3DCC1CE7DF3A0891B954B0B7D6A2 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4204B8CFF92F506951F7AE1448FA925C /* Debug */ = {
+		11A28A257FA5653851283EE25DF2FC3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE53577A6956F1DC00476AB3E7004059 /* ALFormInput.debug.xcconfig */;
+			baseConfigurationReference = 43A35152448B776F574D1B8EF8B5ABE4 /* PhoneNumberKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -618,82 +1237,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ALFormInput/ALFormInput-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALFormInput/ALFormInput-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ALFormInput/ALFormInput.modulemap";
-				PRODUCT_MODULE_NAME = ALFormInput;
-				PRODUCT_NAME = ALFormInput;
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit.modulemap";
+				PRODUCT_MODULE_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F978B1F61295C5B9C19495D9DA353B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B3E186C8C62AD6BE5CA02720F08FB0 /* Pods-ALFormInput_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -701,11 +1255,12 @@
 			};
 			name = Release;
 		};
-		9B60E76CB1552C01A08F0409447DFACC /* Release */ = {
+		167FB13CD52DF52BA98ED4E45E6C3D38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 147A69487603CA8B45313F5C62D51837 /* Pods-ALFormInput_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -717,7 +1272,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ALFormInput_Example/Pods-ALFormInput_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ALFormInput_Example/Pods-ALFormInput_Example.modulemap";
@@ -735,7 +1290,163 @@
 			};
 			name = Release;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		1FF9ABA7310D314D694E2B686BF6BCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FE5C3C8136542D733EB5DECCF46111 /* SkyFloatingLabelTextField.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		353B30F6DC34C146896D17388589D9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4F854D34E301ED663D88A7C9DBA59F /* SkyFloatingLabelTextField.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D7953A699A647D5572E1BD7EA83C22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9DCBAD13A0EE0DE7AC0F45343300F5 /* ALFormInput.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALFormInput/ALFormInput-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALFormInput/ALFormInput-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALFormInput/ALFormInput.modulemap";
+				PRODUCT_MODULE_NAME = ALFormInput;
+				PRODUCT_NAME = ALFormInput;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EFFCACD083B71F31244B053BA950F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FC3D9726810FE6D6500344AAAF2AEB /* PhoneNumberKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit.modulemap";
+				PRODUCT_MODULE_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		454415874002F23ADCE7B203309BCC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937E5988DDAF874C8592FD445B2A1DAC /* SwiftValidatorNew.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftValidatorNew/SwiftValidatorNew-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftValidatorNew/SwiftValidatorNew-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftValidatorNew/SwiftValidatorNew.modulemap";
+				PRODUCT_MODULE_NAME = SwiftValidatorNew;
+				PRODUCT_NAME = SwiftValidatorNew;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B1F13D49B97FF90469FE040925F8D8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -783,19 +1494,118 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		582FFC5EBAF15A20F2EFD2B00EDEC0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B3E186C8C62AD6BE5CA02720F08FB0 /* Pods-ALFormInput_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6722B6C15A8642B04D2F739451BF437F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982BFD566BFA708CADF6324F087B2EA4 /* SwiftValidatorNew.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftValidatorNew/SwiftValidatorNew-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftValidatorNew/SwiftValidatorNew-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftValidatorNew/SwiftValidatorNew.modulemap";
+				PRODUCT_MODULE_NAME = SwiftValidatorNew;
+				PRODUCT_NAME = SwiftValidatorNew;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D96064894B533C92E418B2487976B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8482C641E555E665BA8B5DDA7A2495 /* ALFormInput.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALFormInput/ALFormInput-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALFormInput/ALFormInput-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALFormInput/ALFormInput.modulemap";
+				PRODUCT_MODULE_NAME = ALFormInput;
+				PRODUCT_NAME = ALFormInput;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -846,7 +1656,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -859,9 +1669,9 @@
 			};
 			name = Debug;
 		};
-		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+		D2B018A492E513A80E663EC09762EE96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = E8F3F705606D9E7A5E49ECE15235ACC9 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -891,44 +1701,12 @@
 			};
 			name = Release;
 		};
-		D289B51C76B50F28BC9A57C3E3D314BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81645352AEF714E336304B56339018ED /* Pods-ALFormInput_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E3E439C262D844898F3DC50D809C7C3F /* Debug */ = {
+		D6DFF460AB179139186CB0964A366A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F19D5F6E15D3F07CA18910421DD14BD2 /* Pods-ALFormInput_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -940,7 +1718,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ALFormInput_Example/Pods-ALFormInput_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ALFormInput_Example/Pods-ALFormInput_Example.modulemap";
@@ -957,9 +1735,9 @@
 			};
 			name = Debug;
 		};
-		FC61B081F8565C8C23372CF575C1470E /* Release */ = {
+		EB0A629716628F10A80AB11E89FAB827 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 136B9CA870C78BDFB6D5B583F0B21FA2 /* ALFormInput.release.xcconfig */;
+			baseConfigurationReference = BC17CA7120F1E8A15CCBFEC7A32087BB /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -970,24 +1748,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ALFormInput/ALFormInput-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALFormInput/ALFormInput-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ALFormInput/ALFormInput.modulemap";
-				PRODUCT_MODULE_NAME = ALFormInput;
-				PRODUCT_NAME = ALFormInput;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		EB183487C3C6900DB3C709C545058BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81645352AEF714E336304B56339018ED /* Pods-ALFormInput_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -995,17 +1806,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */,
+				4B1F13D49B97FF90469FE040925F8D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78FA2286C21BA9F378DE3F908375BA21 /* Build configuration list for PBXNativeTarget "Pods-ALFormInput_Example" */ = {
+		75A547FB0791DC3DFD7B4CBC7826903D /* Build configuration list for PBXNativeTarget "Pods-ALFormInput_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3E439C262D844898F3DC50D809C7C3F /* Debug */,
-				9B60E76CB1552C01A08F0409447DFACC /* Release */,
+				D6DFF460AB179139186CB0964A366A7F /* Debug */,
+				167FB13CD52DF52BA98ED4E45E6C3D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1013,17 +1824,17 @@
 		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
-				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+				EB0A629716628F10A80AB11E89FAB827 /* Debug */,
+				D2B018A492E513A80E663EC09762EE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF1476F371C87B37E89CA87B3A9A8BD7 /* Build configuration list for PBXNativeTarget "ALFormInput" */ = {
+		BF28C24148D874A58BC436050B757E9C /* Build configuration list for PBXNativeTarget "SwiftValidatorNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4204B8CFF92F506951F7AE1448FA925C /* Debug */,
-				FC61B081F8565C8C23372CF575C1470E /* Release */,
+				454415874002F23ADCE7B203309BCC72 /* Debug */,
+				6722B6C15A8642B04D2F739451BF437F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1031,8 +1842,35 @@
 		C0ADE118CD902FE639A84304689605C8 /* Build configuration list for PBXNativeTarget "Pods-ALFormInput_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D289B51C76B50F28BC9A57C3E3D314BA /* Debug */,
-				8F978B1F61295C5B9C19495D9DA353B2 /* Release */,
+				EB183487C3C6900DB3C709C545058BB8 /* Debug */,
+				582FFC5EBAF15A20F2EFD2B00EDEC0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC8ED32CAF1052D952236A93B8CAE9D /* Build configuration list for PBXNativeTarget "ALFormInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7953A699A647D5572E1BD7EA83C22C /* Debug */,
+				7D96064894B533C92E418B2487976B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F141C8115EC636006571905EAB0082E0 /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFFCACD083B71F31244B053BA950F5E /* Debug */,
+				11A28A257FA5653851283EE25DF2FC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD97559E11CF55D40CAD63D484A9077 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF9ABA7310D314D694E2B686BF6BCB3 /* Debug */,
+				353B30F6DC34C146896D17388589D9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

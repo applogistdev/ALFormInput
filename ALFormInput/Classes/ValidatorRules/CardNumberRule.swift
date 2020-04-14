@@ -6,7 +6,7 @@
 //  Copyright © 2020 AppLogist. All rights reserved.
 //
 
-import Foundation
+import SwiftValidatorNew
 /**
  `CardNumberRule` is a subclass of Rule that defines how a credit card number is validated.
  */
