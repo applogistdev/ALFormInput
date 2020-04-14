@@ -10,30 +10,17 @@ import UIKit
 import SkyFloatingLabelTextField
 import PhoneNumberKit
 import SwiftValidatorNew
+import ActionSheetPicker_3_0
 
 public class ALValidatableTextField: SkyFloatingLabelTextField {
     
     private let validator = Validator()
     private var config = ALTextFieldConfig()
     private var type = ALValidatableTextFieldType.optional
-    
+        
     private lazy var phoneNumberKit = PhoneNumberKit()
     private lazy var phoneFormatter = PartialFormatter()
     
-    // 3. And another stored property which will only be accessible in IB (because the "unavailable" attribute prevents its use in code)
-    @available(*, unavailable, message: "This property is reserved for Interface Builder. Use 'shape' instead.")
-    @IBInspectable var textFieldType: String? {
-        willSet {
-            // Ensure user enters a valid shape while making it lowercase.
-            // Ignore input if not valid.
-            if let newShape = ALValidatableTextFieldType(rawValue: newValue?.lowercased() ?? "") {
-                type = newShape
-            }
-        }
-        didSet {
-            setConfig(type)
-        }
-    }
     
     // MARK: - Properties
     private var padding: UIEdgeInsets? {
@@ -93,6 +80,11 @@ public class ALValidatableTextField: SkyFloatingLabelTextField {
         if type == .creditCardNumber {
             addTarget(self, action: #selector(formatCreditCardString(_:)), for: .editingChanged)
         }
+        
+        if type == .datePicker {
+            delegate = self
+        }
+        
         validator.registerField(self, rules: tmpRules)
     }
     
@@ -243,8 +235,16 @@ public class ALValidatableTextField: SkyFloatingLabelTextField {
         self.padding = padding
     }
 }
-
+// MARK: - UITextFieldDelegate
 extension ALValidatableTextField: UITextFieldDelegate {
+    public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        if type == .datePicker {
+            
+            return false
+        }
+        return true
+    }
+    
     public func textFieldDidEndEditing(_ textField: UITextField) {
         //
     }

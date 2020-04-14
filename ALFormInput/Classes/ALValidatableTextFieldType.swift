@@ -18,6 +18,7 @@ public enum ALValidatableTextFieldType: String {
     case tcIdentityNo = "tcIdentityNo"
     case passportNumber = "PassportNumber"
     case creditCardNumber = "CreditCardNumber"
+    case datePicker = "DatePicker"
     case birthDate = "birthDate"
     case optional
     

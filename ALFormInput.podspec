@@ -23,4 +23,6 @@ Pod::Spec.new do |s|
   s.dependency 'SkyFloatingLabelTextField', '~> 3.0'
   s.dependency 'PhoneNumberKit', '~> 3.1'
   s.dependency 'SwiftValidatorNew', '~> 4.2.0'
+  s.dependency 'ActionSheetPicker-3.0'
+  s.dependency 'AlExtensions'
 end
