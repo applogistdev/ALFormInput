@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import ALFormInput
+import SwiftValidatorNew
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var emailTextField: ALValidatableTextField!
+    @IBOutlet weak var passwordTextField: ALValidatableTextField!
+    @IBOutlet weak var nameTextField: ALValidatableTextField!
+    @IBOutlet weak var surnameTextfield: ALValidatableTextField!
+    @IBOutlet weak var phoneTextField: ALValidatableTextField!
+    @IBOutlet weak var creditCardNumberTextField: ALValidatableTextField!
+    @IBOutlet weak var tcIdentityNoTextField: ALValidatableTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupTextFields()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func setupTextFields() {
+        emailTextField.setConfig(.email)
+        passwordTextField.setConfig(.password)
+        nameTextField.setConfig(.name)
+        surnameTextfield.setConfig(.surname)
+        phoneTextField.setConfig(.phoneNumber)
+        phoneTextField.setFormattedPhoneNumber("+905318888741")
+        creditCardNumberTextField.setConfig(.creditCardNumber)
+        tcIdentityNoTextField.setConfig(.tcIdentityNo)
     }
-
 }
 

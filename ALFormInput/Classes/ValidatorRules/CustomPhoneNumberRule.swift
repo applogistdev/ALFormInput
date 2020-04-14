@@ -5,10 +5,8 @@
 //  Created by AppLogist on 13.04.2020.
 //  Copyright © 2020 AppLogist. All rights reserved.
 //
-
-import Foundation
 import PhoneNumberKit
-
+import SwiftValidatorNew
 public class CustomPhoneNumberRule: Rule {
     
     

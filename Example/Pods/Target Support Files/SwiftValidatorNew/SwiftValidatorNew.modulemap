@@ -1,0 +1,6 @@
+framework module SwiftValidatorNew {
+  umbrella header "SwiftValidatorNew-umbrella.h"
+
+  export *
+  module * { export * }
+}

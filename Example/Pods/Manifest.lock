@@ -1,10 +1,21 @@
 PODS:
-  - ALFormInput (0.1.0)
+  - ALFormInput (0.1.0):
+    - PhoneNumberKit (~> 3.1)
+    - SkyFloatingLabelTextField (~> 3.0)
+    - SwiftValidatorNew (~> 4.2.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - PhoneNumberKit (3.2.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.2.0)
+    - PhoneNumberKit/UIKit (= 3.2.0)
+  - PhoneNumberKit/PhoneNumberKitCore (3.2.0)
+  - PhoneNumberKit/UIKit (3.2.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - SkyFloatingLabelTextField (3.8.0)
+  - SwiftValidatorNew (4.2.0)
 
 DEPENDENCIES:
   - ALFormInput (from `../`)
@@ -13,15 +24,21 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - PhoneNumberKit
+    - SkyFloatingLabelTextField
+    - SwiftValidatorNew
 
 EXTERNAL SOURCES:
   ALFormInput:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALFormInput: 5104ae429e61f232518afc99077b44969d89ecb3
+  ALFormInput: 05d015293f0c39dfca59aeec99edca7c3d9505af
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PhoneNumberKit: df411d46177d1492da84e10b6c093846dd861452
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SwiftValidatorNew: 55a74b7df661c33d594ef1597871edcb40f5ccbe
 
-PODFILE CHECKSUM: 5b385329abfef7fe7e0546d6e9cb35665bfd5d5c
+PODFILE CHECKSUM: 26463a7bc9e16b7dc2828db4da06c4e518c0445e
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.9.1

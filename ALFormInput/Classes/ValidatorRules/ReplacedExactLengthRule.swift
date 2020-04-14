@@ -6,7 +6,7 @@
 //  Copyright © 2020 AppLogist. All rights reserved.
 //
 
-import Foundation
+import SwiftValidatorNew
 
 /**
  `ReplacedExactLengthRule` is a subclass of Rule that is used to make sure a the text of a field is an exact length without spesific character

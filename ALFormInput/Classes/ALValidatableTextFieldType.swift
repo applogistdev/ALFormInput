@@ -1,12 +1,13 @@
 //
 //  ALValidatableTextFieldType.swift
-//  ALTextFields
+//  ALFormInput
 //
 //  Created by AppLogist on 10.04.2020.
 //  Copyright © 2020 AppLogist. All rights reserved.
 //
 
 import UIKit
+import SwiftValidatorNew
 
 public enum ALValidatableTextFieldType: String {
     case email = "Email"
@@ -21,25 +22,39 @@ public enum ALValidatableTextFieldType: String {
     case optional
     
     
+    private var emailRule : EmailRule {
+        EmailRule(message: "Geçersiz E-Posta Adresi")
+    }
+    
+    private var requiredRule: RequiredRule {
+        RequiredRule(message: "Bu alan zorunludur")
+    }
+    
+    private func minLengthRule(_ length: Int) -> MinLengthRule {
+        MinLengthRule(length: length, message: "En %ld karakter olmalıdır")
+    }
+    
+    private func exactLengthRule(_ length: Int) -> ExactLengthRule {
+        ExactLengthRule(length: length, message: "%ld karakter olmalıdır")
+    }
+    
     public var rules : [Rule] {
         switch self {
             case .email:
-                return [RequiredRule(), EmailRule()]
+                return [requiredRule, emailRule]
             case .password:
-                return [RequiredRule(), PasswordRule()]
-            case .name:
-                return [RequiredRule(), MinLengthRule(length:3)]
-            case .surname:
-                return [RequiredRule(), MinLengthRule(length:3)]
+                return [requiredRule, PasswordRule()]
+            case .name, .surname:
+                return [requiredRule, minLengthRule(3)]
             case .phoneNumber:
-                return [RequiredRule(), CustomPhoneNumberRule()]
+                return [requiredRule, CustomPhoneNumberRule()]
             case .creditCardNumber:
-                return [RequiredRule(),
+                return [requiredRule,
                         CardNumberRule(),
                         ReplacedExactLengthRule(length: 16, willRemoveString: " ")]
             case .tcIdentityNo:
-                return [RequiredRule(),
-                        ExactLengthRule(length: 11),
+                return [requiredRule,
+                        exactLengthRule(11),
                         TCIdentityRule()]
             default:
                 return []
