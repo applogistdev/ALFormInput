@@ -74,7 +74,7 @@ class ViewController: UIViewController {
 // MARK: - ALDatePickerDelegate'
 extension ViewController: ALDatePickerDelegate {
     func didSelectDate(_ view: ALDatePicker, selectedDate: Date) {
-        dump(selectedDate.formatted(format: "dd MMMM yyyy"))
+        // You can handle selected date
     }
 }
 
