@@ -10,6 +10,7 @@ import UIKit
 import ALFormInput
 import SwiftValidatorNew
 import AlExtensions
+import FontAwesome_swift
 
 struct Person: Codable, ALPickable {
     var stringForShowingInPickerView: String? {
@@ -31,6 +32,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tcIdentityNoTextField: ALValidatableTextField!
     @IBOutlet weak var datePicker: ALDatePicker!
     @IBOutlet weak var objectPicker: ALObjectPicker!
+    @IBOutlet weak var monthAndYearPicker: ALMonthAndYearPicker!
+    
     
     let persons = [Person(name: "Ahmet", age: 15), Person(name: "Mehmet", age: 16), Person(name: "Soner", age: 57)]
     
@@ -56,18 +59,22 @@ class ViewController: UIViewController {
         datePicker.setupPicker(pickerMode: .date, dateShowFormat: "d MMMM yyyy")
         datePicker.datePickerDelegate = self
         
-        
         objectPicker.title = "Yolcular"
         objectPicker.placeholder = "Yolcu seçmek için tıklayınız"
         objectPicker.setupPicker(objects: persons)
         objectPicker.objectPickerDelegate = self
+        
+        monthAndYearPicker.title = "Son Kullanma Tarihi"
+        monthAndYearPicker.placeholder = "Son Kullanma Tarihini Seçiniz"
+        monthAndYearPicker.datePickerDelegate = self
+        
     }
 }
 
 // MARK: - ALDatePickerDelegate'
 extension ViewController: ALDatePickerDelegate {
     func didSelectDate(_ view: ALDatePicker, selectedDate: Date) {
-        // You can handle selected date
+        dump(selectedDate.formatted(format: "dd MMMM yyyy"))
     }
 }
 
