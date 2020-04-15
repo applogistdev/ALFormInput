@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		158CF6E85C91D42E4F7576AA /* Pods_ALFormInput_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73D2CB621F119056B949E7 /* Pods_ALFormInput_Tests.framework */; };
+		359DA55724472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359DA55624472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift */; };
 		35ACD48C2445D3180087512C /* ALDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ACD48B2445D3180087512C /* ALDatePicker.swift */; };
 		35ACD48E2445D8A70087512C /* AL+ActionSheetPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ACD48D2445D8A70087512C /* AL+ActionSheetPicker.swift */; };
 		35ACD4902445E32A0087512C /* ALStringPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ACD48F2445E32A0087512C /* ALStringPicker.swift */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		15C06C9630A5ECBC5A9FC89F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		16E4DB1FA5E21E933A621C5C /* Pods-ALFormInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALFormInput_Tests.release.xcconfig"; path = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		359DA55624472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALValidatableTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		35ACD48B2445D3180087512C /* ALDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDatePicker.swift; sourceTree = "<group>"; };
 		35ACD48D2445D8A70087512C /* AL+ActionSheetPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AL+ActionSheetPicker.swift"; sourceTree = "<group>"; };
 		35ACD48F2445E32A0087512C /* ALStringPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALStringPicker.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				35DBD20824459AE3008A8144 /* ValidatorRules */,
 				35DBD22424459AE3008A8144 /* ALValidatableConfig.swift */,
 				35ACD4922446016D0087512C /* ALMonthAndYearPicker.swift */,
+				359DA55624472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift */,
 			);
 			name = Classes;
 			path = ../ALFormInput/Classes;
@@ -283,11 +286,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1140;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1140;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -366,6 +369,7 @@
 				"${BUILT_PRODUCTS_DIR}/ALFormInput/ALFormInput.framework",
 				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
 				"${BUILT_PRODUCTS_DIR}/AlExtensions/AlExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftValidatorNew/SwiftValidatorNew.framework",
@@ -375,6 +379,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALFormInput.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidatorNew.framework",
@@ -446,6 +451,7 @@
 				35DBD22F24459AE3008A8144 /* CustomPhoneNumberRule.swift in Sources */,
 				35DBD24224459AE3008A8144 /* CreditCardType.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				359DA55724472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift in Sources */,
 				35ACD48C2445D3180087512C /* ALDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

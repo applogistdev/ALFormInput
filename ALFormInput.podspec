@@ -25,4 +25,6 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftValidatorNew', '~> 4.2.0'
   s.dependency 'ActionSheetPicker-3.0'
   s.dependency 'AlExtensions'
+  s.dependency 'FontAwesome.swift'
+
 end

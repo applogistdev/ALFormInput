@@ -10,12 +10,13 @@ import UIKit
 import ALFormInput
 import SwiftValidatorNew
 import AlExtensions
+import FontAwesome_swift
 
 struct Person: Codable, ALPickable {
     var stringForShowingInPickerView: String? {
         return name
     }
-
+    
     let name: String?
     let age: Int?
 }
@@ -42,14 +43,22 @@ class ViewController: UIViewController {
     }
     
     private func setupTextFields() {
-        emailTextField.setConfig(.email)
-        passwordTextField.setConfig(.password)
-        nameTextField.setConfig(.name)
-        surnameTextfield.setConfig(.surname)
-        phoneTextField.setConfig(.phoneNumber)
+        emailTextField.setTypesAndRules(.email)
+        emailTextField.fontAwesomeImage = .envelope
+        passwordTextField.setTypesAndRules(.password)
+        nameTextField.setTypesAndRules(.name)
+        nameTextField.fontAwesomeImage = .user
+        surnameTextfield.setTypesAndRules(.surname)
+        surnameTextfield.fontAwesomeImage = .user
+        phoneTextField.setTypesAndRules(.phoneNumber)
+        phoneTextField.fontAwesomeImage = .mobileAlt
+        phoneTextField.fontAwesomeStyle = .solid
+        
         phoneTextField.setFormattedPhoneNumber("+905318888741")
-        creditCardNumberTextField.setConfig(.creditCardNumber)
-        tcIdentityNoTextField.setConfig(.tcIdentityNo)
+        
+        
+        creditCardNumberTextField.setTypesAndRules(.creditCardNumber)
+        tcIdentityNoTextField.setTypesAndRules(.tcIdentityNo)
         
         // Date picker
         datePicker.setConfig()
@@ -62,11 +71,10 @@ class ViewController: UIViewController {
         objectPicker.placeholder = "Yolcu seçmek için tıklayınız"
         objectPicker.setupPicker(objects: persons)
         objectPicker.objectPickerDelegate = self
-        
+    
         monthAndYearPicker.title = "Son Kullanma Tarihi"
         monthAndYearPicker.placeholder = "Son Kullanma Tarihini Seçiniz"
         monthAndYearPicker.datePickerDelegate = self
-        
     }
 }
 

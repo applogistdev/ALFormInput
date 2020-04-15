@@ -28,11 +28,13 @@ public class ALDatePicker: ALValidatableTextField {
     public override init(rules: [Rule], config: ALTextFieldConfig) {
         super.init(rules: rules, config: config)
         delegate = self
+        setDropDownIcon()
     }
     
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
         delegate = self
+        setDropDownIcon()
     }
     
     public func setupPicker(pickerMode: UIDatePickerMode? = nil,

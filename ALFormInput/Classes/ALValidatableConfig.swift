@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SkyFloatingLabelTextField
 
 public class ALTextFieldConfig {
     static let shared = ALTextFieldConfig()
@@ -57,6 +58,21 @@ public class ALTextFieldConfig {
     
     public var validateEventType: UIControl.Event = .editingDidEnd
     
+    public var iconType: IconType = .image
+    
+    public var iconColor: UIColor {
+        titleColor
+    }
+    
+    public var selectedIconColor: UIColor {
+        selectedTitleColor
+    }
+    
+    public var iconWidth: CGFloat {
+        isIconVisible ? 20 : -4
+    }
+    
+    public var isIconVisible: Bool = false
     
     public init () {}
 }
