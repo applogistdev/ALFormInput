@@ -69,7 +69,12 @@ public class ALObjectPicker: ALValidatableTextField {
         picker?.show()
     }
     
-    public override func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+    
+}
+
+// MARK: - ALObjectPicker
+extension ALObjectPicker: UITextFieldDelegate {
+    public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         showActionSheetStringPicker()
         return false
     }

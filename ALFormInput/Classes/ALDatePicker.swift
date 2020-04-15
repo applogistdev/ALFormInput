@@ -72,7 +72,12 @@ public class ALDatePicker: ALValidatableTextField {
         picker?.show()
     }
     
-    public override func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+    
+}
+
+// MARK: - UITextFieldDelegate
+extension ALDatePicker: UITextFieldDelegate {
+    public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         showActionSheetDatePicker()
         return false
     }

@@ -80,11 +80,6 @@ public class ALValidatableTextField: SkyFloatingLabelTextField {
         if type == .creditCardNumber {
             addTarget(self, action: #selector(formatCreditCardString(_:)), for: .editingChanged)
         }
-        
-        if type == .datePicker {
-            delegate = self
-        }
-        
         validator.registerField(self, rules: tmpRules)
     }
     
@@ -233,20 +228,6 @@ public class ALValidatableTextField: SkyFloatingLabelTextField {
     /// Default padding is --> top: 4, left: 0, bottom: 4, right: 0
     private func setPadding(_ padding: UIEdgeInsets = UIEdgeInsets(top: 4, left: 0, bottom: 4, right: 0)) {
         self.padding = padding
-    }
-}
-// MARK: - UITextFieldDelegate
-extension ALValidatableTextField: UITextFieldDelegate {
-    public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        if type == .datePicker {
-            
-            return false
-        }
-        return true
-    }
-    
-    public func textFieldDidEndEditing(_ textField: UITextField) {
-        //
     }
 }
 
