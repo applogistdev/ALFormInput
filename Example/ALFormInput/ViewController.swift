@@ -10,7 +10,6 @@ import UIKit
 import ALFormInput
 import SwiftValidatorNew
 import AlExtensions
-import FontAwesome_swift
 
 struct Person: Codable, ALPickable {
     var stringForShowingInPickerView: String? {
