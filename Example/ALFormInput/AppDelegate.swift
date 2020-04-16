@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        // Set global configurations like below for all ALValidatableTextField's
+        ALTextFieldConfig.shared.errorColor = .red
+        
         return true
     }
 
