@@ -43,6 +43,8 @@ class ViewController: UIViewController {
     }
     
     private func setupTextFields() {
+
+        
         emailTextField.setTypesAndRules(.email)
         emailTextField.fontAwesomeImage = .envelope
         passwordTextField.setTypesAndRules(.password)
@@ -50,10 +52,15 @@ class ViewController: UIViewController {
         nameTextField.fontAwesomeImage = .user
         surnameTextfield.setTypesAndRules(.surname)
         surnameTextfield.fontAwesomeImage = .user
+        
+        // Set spesific configuration
+        let config = ALTextFieldConfig()
+        config.errorColor = .purple
+        phoneTextField.setConfig(config)
+        
         phoneTextField.setTypesAndRules(.phoneNumber)
         phoneTextField.fontAwesomeImage = .mobileAlt
         phoneTextField.fontAwesomeStyle = .solid
-        
         phoneTextField.setFormattedPhoneNumber("+905318888741")
         
         

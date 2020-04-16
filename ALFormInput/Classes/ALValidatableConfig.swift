@@ -8,8 +8,8 @@
 import UIKit
 import SkyFloatingLabelTextField
 
-public class ALTextFieldConfig {
-    static let shared = ALTextFieldConfig()
+public class ALTextFieldConfig: NSObject {
+    public static let shared = ALTextFieldConfig()
     
     // MARK: - Fonts
     public var titleFont : UIFont = UIFont.systemFont(ofSize: 13, weight: .semibold)
@@ -74,5 +74,5 @@ public class ALTextFieldConfig {
     
     public var isIconVisible: Bool = false
     
-    public init () {}
+    public override init () {}
 }

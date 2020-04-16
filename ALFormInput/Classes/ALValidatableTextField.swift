@@ -16,7 +16,7 @@ import FontAwesome_swift
 public class ALValidatableTextField: SkyFloatingLabelTextFieldWithIcon {
     
     private let validator = Validator()
-    private var config = ALTextFieldConfig()
+    private var config = ALTextFieldConfig.shared
     private var type = ALValidatableTextFieldType.optional
         
     private lazy var phoneNumberKit = PhoneNumberKit()
@@ -110,6 +110,7 @@ public class ALValidatableTextField: SkyFloatingLabelTextFieldWithIcon {
     
     public func setConfig(_ config: ALTextFieldConfig = ALTextFieldConfig()) {
         self.config = config
+        setupDefaultLook()
     }
     
     public func setTypesAndRules(_ type: ALValidatableTextFieldType = .optional,
