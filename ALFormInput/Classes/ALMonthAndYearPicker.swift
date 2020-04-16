@@ -58,7 +58,7 @@ public class ALMonthAndYearPicker: ALDatePicker {
     private func showActionSheetDatePicker() {
         guard let minYear = minYear, let maxYear = maxYear else { return }
         let years = (minYear...maxYear).map { "\($0)"}
-        let months = format == .withNumeric ? monthSymbols?.compactMap{ String((monthSymbols?.index(of: $0) ?? 0) + 1)} : (monthSymbols ?? [])
+        let months = format == .withNumeric ? monthSymbols?.compactMap{ String((monthSymbols?.firstIndex(of: $0) ?? 0) + 1)} : (monthSymbols ?? [])
         let picker = ActionSheetMultipleStringPicker(title: title,
                                                        rows: [months ?? [], years ],
                                                        initialSelection: selectedIndexes ?? [0,0] ,

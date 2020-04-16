@@ -9,6 +9,11 @@
 import Foundation
 
 public extension String {
+    
+    var uppercased: String {
+        uppercased(with: Locale(identifier: "tr-TR"))
+    }
+    
     func localizeWithFormat(arguments: CVarArg...) -> String{
        String(format: self.localized, arguments: arguments)
     }

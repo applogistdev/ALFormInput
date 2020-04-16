@@ -30,13 +30,13 @@
       "~> 4.2.0"
     ],
     "ActionSheetPicker-3.0": [
-
+      "2.4.2"
     ],
     "AlExtensions": [
-
+      "0.2.0"
     ],
     "FontAwesome.swift": [
-
+      "1.9.0"
     ]
   }
 }

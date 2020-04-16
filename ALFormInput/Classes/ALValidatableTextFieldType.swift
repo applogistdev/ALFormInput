@@ -24,24 +24,24 @@ public enum ALValidatableTextFieldType: String {
     
     
     private var emailRule : EmailRule {
-        EmailRule(message: "Geçersiz E-Posta Adresi")
+        EmailRule(message: "Geçersiz E-Posta Adresi".uppercased)
     }
     
     private var requiredRule: RequiredRule {
-        RequiredRule(message: "Bu alan zorunludur")
+        RequiredRule(message: "Bu alan zorunludur".uppercased)
     }
     
     private func minLengthRule(_ length: Int) -> MinLengthRule {
-        MinLengthRule(length: length, message: "En %ld karakter olmalıdır")
+        MinLengthRule(length: length, message: "En %ld karakter olmalıdır".uppercased)
     }
     
     private func exactLengthRule(_ length: Int) -> ExactLengthRule {
-        ExactLengthRule(length: length, message: "%ld karakter olmalıdır")
+        ExactLengthRule(length: length, message: "%ld karakter olmalıdır".uppercased)
     }
     
     private func passwordRule(_ length: Int) -> PasswordRule {
         PasswordRule(regex: "^(?=.*?[A-Z]).{\(length),}$",
-            message: String(format: "En az %ld karakter olmalıdır", length))
+            message: String(format: "En az %ld karakter olmalıdır".uppercased, length))
     }
     
     public var rules : [Rule] {
