@@ -262,10 +262,6 @@ public class ALValidatableTextField: SkyFloatingLabelTextFieldWithIcon {
         fontAwesomeStyle = .solid
     }
     
-    func validationSuccessful() {
-        // submit the form
-    }
-    
     func validationFailed(_ errors:[(Validatable ,ValidationError)]) {
         // turn the fields to red
         for (field, error) in errors {
