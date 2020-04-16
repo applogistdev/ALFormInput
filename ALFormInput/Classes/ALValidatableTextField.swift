@@ -10,28 +10,65 @@ import UIKit
 import SkyFloatingLabelTextField
 import PhoneNumberKit
 import SwiftValidatorNew
+import ActionSheetPicker_3_0
+import FontAwesome_swift
 
-public class ALValidatableTextField: SkyFloatingLabelTextField {
+public class ALValidatableTextField: SkyFloatingLabelTextFieldWithIcon {
     
     private let validator = Validator()
     private var config = ALTextFieldConfig()
     private var type = ALValidatableTextFieldType.optional
-    
+        
     private lazy var phoneNumberKit = PhoneNumberKit()
     private lazy var phoneFormatter = PartialFormatter()
     
-    // 3. And another stored property which will only be accessible in IB (because the "unavailable" attribute prevents its use in code)
-    @available(*, unavailable, message: "This property is reserved for Interface Builder. Use 'shape' instead.")
-    @IBInspectable var textFieldType: String? {
-        willSet {
-            // Ensure user enters a valid shape while making it lowercase.
-            // Ignore input if not valid.
-            if let newShape = ALValidatableTextFieldType(rawValue: newValue?.lowercased() ?? "") {
-                type = newShape
-            }
-        }
+    /// When you search your icon on fontawesome.com click on icon that you want.
+    /// In its URL you will see its style. For example for camera icon it will be like this: ../icons/camera?style=solid
+    /// For example for camera icon it will be like this: ../icons/camera?style=solid
+    public var fontAwesomeStyle : FontAwesomeStyle = .regular {
         didSet {
-            setConfig(type)
+            updateIcon()
+        }
+    }
+    
+    
+    /// Check your free FontAwesome icon in https://fontawesome.com/icons?d=gallery
+    public var fontAwesomeImage: FontAwesome? {
+        didSet {
+            guard let fontAwesomeImage = fontAwesomeImage else { return }
+            DispatchQueue.main.async {
+                self.iconImage = UIImage.fontAwesomeIcon(name: fontAwesomeImage,
+                                                         style: self.fontAwesomeStyle,
+                                                         textColor: self.errorMessage != nil ? self.errorColor : self.titleColor,
+                                                         size: CGSize(width: 40, height: 40))
+            }
+            
+        }
+    }
+    
+    
+    /// Update icon when states changed
+    private func updateIcon() {
+        let fontImage = fontAwesomeImage
+        fontAwesomeImage = fontImage
+    }
+    
+    public override var errorMessage: String? {
+        didSet {
+            updateIcon()
+        }
+    }
+    
+    public override var iconImage: UIImage?{
+        willSet {
+            DispatchQueue.main.async {
+                self.config.isIconVisible = self.iconImage != nil
+                self.iconColor = self.config.iconColor
+                self.selectedIconColor = self.config.selectedIconColor
+                self.iconWidth = self.config.iconWidth
+                self.iconType = self.config.iconType
+                self.layoutIfNeeded()
+            }
         }
     }
     
@@ -71,12 +108,12 @@ public class ALValidatableTextField: SkyFloatingLabelTextField {
     }
     
     
-    public func setConfig(_ type: ALValidatableTextFieldType = .optional,
-                          _ config: ALTextFieldConfig = ALTextFieldConfig(),
-                          rules: [Rule] = [],
-                          validateWhileTyping: Bool = false
-                          ) {
+    public func setConfig(_ config: ALTextFieldConfig = ALTextFieldConfig()) {
         self.config = config
+    }
+    
+    public func setTypesAndRules(_ type: ALValidatableTextFieldType = .optional,
+                          rules: [Rule] = []) {
         self.type = type
         let tmpRules = rules.isEmpty ? type.rules : rules
         keyboardType = type.keyboardType
@@ -108,6 +145,11 @@ public class ALValidatableTextField: SkyFloatingLabelTextField {
         selectedTitleColor = config.selectedTitleColor
         selectedLineColor = config.selectedLineColor
         titleColor = config.titleColor
+        
+        iconColor = config.iconColor
+        selectedIconColor = config.selectedIconColor
+        iconWidth = config.iconWidth
+        iconType = config.iconType
         
         errorColor = config.errorColor
         textErrorColor = config.textErrorColor
@@ -215,6 +257,10 @@ public class ALValidatableTextField: SkyFloatingLabelTextField {
         return nil
     }
     
+    internal func setDropDownIcon() {
+        fontAwesomeImage = .angleDown
+        fontAwesomeStyle = .solid
+    }
     
     func validationSuccessful() {
         // submit the form
@@ -241,12 +287,6 @@ public class ALValidatableTextField: SkyFloatingLabelTextField {
     /// Default padding is --> top: 4, left: 0, bottom: 4, right: 0
     private func setPadding(_ padding: UIEdgeInsets = UIEdgeInsets(top: 4, left: 0, bottom: 4, right: 0)) {
         self.padding = padding
-    }
-}
-
-extension ALValidatableTextField: UITextFieldDelegate {
-    public func textFieldDidEndEditing(_ textField: UITextField) {
-        //
     }
 }
 

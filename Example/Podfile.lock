@@ -1,5 +1,10 @@
 PODS:
-  - ALFormInput (0.1.0):
+  - ActionSheetPicker-3.0 (2.4.2)
+  - AlExtensions (0.2.0)
+  - ALFormInput (0.1.1):
+    - ActionSheetPicker-3.0
+    - AlExtensions
+    - FontAwesome.swift
     - PhoneNumberKit (~> 3.1)
     - SkyFloatingLabelTextField (~> 3.0)
     - SwiftValidatorNew (~> 4.2.0)
@@ -8,6 +13,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - FontAwesome.swift (1.9.0)
   - PhoneNumberKit (3.2.0):
     - PhoneNumberKit/PhoneNumberKitCore (= 3.2.0)
     - PhoneNumberKit/UIKit (= 3.2.0)
@@ -23,7 +29,10 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - ActionSheetPicker-3.0
+    - AlExtensions
     - FBSnapshotTestCase
+    - FontAwesome.swift
     - PhoneNumberKit
     - SkyFloatingLabelTextField
     - SwiftValidatorNew
@@ -33,12 +42,15 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALFormInput: 05d015293f0c39dfca59aeec99edca7c3d9505af
+  ActionSheetPicker-3.0: 5b62e07b00bd970509cf5ece99cb7447eae5dd0d
+  AlExtensions: d5c1a189e6f980dd33ca4292b9e6ddae1911a6a2
+  ALFormInput: 37a541d67b3eceb1afd74237588acd5ffd1010c0
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FontAwesome.swift: a403b88cec950511745ba8f2decd1b6a07346d13
   PhoneNumberKit: df411d46177d1492da84e10b6c093846dd861452
   SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
   SwiftValidatorNew: 55a74b7df661c33d594ef1597871edcb40f5ccbe
 
-PODFILE CHECKSUM: 26463a7bc9e16b7dc2828db4da06c4e518c0445e
+PODFILE CHECKSUM: c7f56bedd1a45e12899c4d376fd7b44a6bc7cd46
 
 COCOAPODS: 1.9.1

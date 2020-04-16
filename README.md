@@ -22,7 +22,8 @@ pod 'ALFormInput'
 
 ## Author
 
-sonifex, soner.guler@applogist.com
+* [ahmetsina](https://github.com/ahmetsina) 
+* sonifex, soner.guler@applogist.com
 
 ## License
 

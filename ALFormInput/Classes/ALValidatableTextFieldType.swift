@@ -18,6 +18,7 @@ public enum ALValidatableTextFieldType: String {
     case tcIdentityNo = "tcIdentityNo"
     case passportNumber = "PassportNumber"
     case creditCardNumber = "CreditCardNumber"
+    case datePicker = "DatePicker"
     case birthDate = "birthDate"
     case optional
     
@@ -38,12 +39,17 @@ public enum ALValidatableTextFieldType: String {
         ExactLengthRule(length: length, message: "%ld karakter olmalıdır")
     }
     
+    private func passwordRule(_ length: Int) -> PasswordRule {
+        PasswordRule(regex: "^(?=.*?[A-Z]).{\(length),}$",
+            message: String(format: "En az %ld karakter olmalıdır", length))
+    }
+    
     public var rules : [Rule] {
         switch self {
             case .email:
                 return [requiredRule, emailRule]
             case .password:
-                return [requiredRule, PasswordRule()]
+                return [requiredRule, passwordRule(6)]
             case .name, .surname:
                 return [requiredRule, minLengthRule(3)]
             case .phoneNumber:

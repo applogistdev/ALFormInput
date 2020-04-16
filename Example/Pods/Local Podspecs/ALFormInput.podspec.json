@@ -1,6 +1,6 @@
 {
   "name": "ALFormInput",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Commonly used form inputs in our projects",
   "homepage": "https://github.com/applogistdev/ALFormInput",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/applogistdev/ALFormInput.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.3"
@@ -28,6 +28,15 @@
     ],
     "SwiftValidatorNew": [
       "~> 4.2.0"
+    ],
+    "ActionSheetPicker-3.0": [
+
+    ],
+    "AlExtensions": [
+
+    ],
+    "FontAwesome.swift": [
+
     ]
   }
 }
