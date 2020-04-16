@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALFormInput'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'Commonly used form inputs in our projects'
 
   s.homepage         = 'https://github.com/applogistdev/ALFormInput'
@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.dependency 'SkyFloatingLabelTextField', '~> 3.0'
   s.dependency 'PhoneNumberKit', '~> 3.1'
   s.dependency 'SwiftValidatorNew', '~> 4.2.0'
-  s.dependency 'ActionSheetPicker-3.0'
-  s.dependency 'AlExtensions'
-  s.dependency 'FontAwesome.swift'
+  s.dependency 'ActionSheetPicker-3.0', '2.4.2'
+  s.dependency 'AlExtensions', '0.2.0'
+  s.dependency 'FontAwesome.swift', '1.9.0'
 
 end

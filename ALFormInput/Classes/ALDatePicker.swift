@@ -18,7 +18,7 @@ public protocol ALDatePickerDelegate: class {
 public class ALDatePicker: ALValidatableTextField {
     
     weak var datePickerDelegate: ALDatePickerDelegate?
-    private var datePickerMode: UIDatePickerMode?
+    private var datePickerMode: UIDatePicker.Mode?
     private var minDate: Date?
     private var maxDate: Date?
     private var showFormat: String = "HH/mm/yyyy"
@@ -37,7 +37,7 @@ public class ALDatePicker: ALValidatableTextField {
         setDropDownIcon()
     }
     
-    public func setupPicker(pickerMode: UIDatePickerMode? = nil,
+    public func setupPicker(pickerMode: UIDatePicker.Mode? = nil,
                             minDate: Date? = nil,
                             maxDate: Date? = nil,
                             locale: Locale? = Locale.current,
@@ -50,8 +50,9 @@ public class ALDatePicker: ALValidatableTextField {
     }
     
     private func showActionSheetDatePicker() {
+        
         let picker = ActionSheetDatePicker(title: title,
-                                           datePickerMode: datePickerMode ?? UIDatePickerMode.date,
+                                           datePickerMode: datePickerMode ?? UIDatePicker.Mode.date,
                                            selectedDate: selectedDate ?? Date(),
                                            doneBlock: { (_, selectedDate, _) in
                                             guard let selectedDate = selectedDate as? Date else { return }
