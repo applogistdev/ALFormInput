@@ -18,7 +18,6 @@ public protocol ALObjectPickerDelegate: class {
     func didSelectObject(_ view: ALObjectPicker, selectedObject: ALPickable, selectedIndex: Int)
 }
 
-
 public class ALObjectPicker: ALValidatableTextField {
     
     weak var objectPickerDelegate: ALObjectPickerDelegate?
