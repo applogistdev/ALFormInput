@@ -22,13 +22,7 @@ public class ALTextFieldConfig: NSObject {
     
     public var textColor: UIColor = .systemGray
     
-    public var titleColor: UIColor {
-        if #available(iOS 13.0, *) {
-            return .label
-        } else {
-            return UIColor.lightGray
-        }
-    }
+    public var titleColor: UIColor = .darkGray
     
     public var placeholderColor: UIColor = .lightGray
     
@@ -42,17 +36,11 @@ public class ALTextFieldConfig: NSObject {
     
     public var errorColor: UIColor = .systemRed
     
-    public var textErrorColor: UIColor? {
-        errorColor
-    }
+    public var textErrorColor: UIColor? = .systemRed
     
-    public var lineErrorColor: UIColor? {
-        errorColor
-    }
+    public var lineErrorColor: UIColor? = .systemRed
     
-    public var titleErrorColor: UIColor? {
-        errorColor
-    }
+    public var titleErrorColor: UIColor? = .systemRed
     
     // MARK: - TextField UIControl Event
     
@@ -60,19 +48,17 @@ public class ALTextFieldConfig: NSObject {
     
     public var iconType: IconType = .image
     
-    public var iconColor: UIColor {
-        titleColor
-    }
+    public var iconColor: UIColor = .darkGray
     
-    public var selectedIconColor: UIColor {
-        selectedTitleColor
-    }
+    public var selectedIconColor: UIColor = .systemBlue
     
-    public var iconWidth: CGFloat {
-        isIconVisible ? 20 : -4
-    }
+    public var iconWidth: CGFloat = -4
     
-    public var isIconVisible: Bool = false
+    public var isIconVisible: Bool = false {
+        didSet {
+            iconWidth = isIconVisible ? 20 : -4
+        }
+    }
     
     public override init () {}
 }
