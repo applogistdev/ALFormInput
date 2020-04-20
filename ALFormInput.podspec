@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALFormInput'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'Commonly used form inputs in our projects'
 
   s.homepage         = 'https://github.com/applogistdev/ALFormInput'
