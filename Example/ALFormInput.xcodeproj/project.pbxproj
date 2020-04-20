@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		158CF6E85C91D42E4F7576AA /* Pods_ALFormInput_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73D2CB621F119056B949E7 /* Pods_ALFormInput_Tests.framework */; };
+		35365FA5244DB5A2001C18C9 /* AL+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35365FA4244DB5A2001C18C9 /* AL+Collection.swift */; };
 		359DA55724472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359DA55624472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift */; };
 		35ACD48C2445D3180087512C /* ALDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ACD48B2445D3180087512C /* ALDatePicker.swift */; };
 		35ACD48E2445D8A70087512C /* AL+ActionSheetPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ACD48D2445D8A70087512C /* AL+ActionSheetPicker.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		15C06C9630A5ECBC5A9FC89F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		16E4DB1FA5E21E933A621C5C /* Pods-ALFormInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALFormInput_Tests.release.xcconfig"; path = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		35365FA4244DB5A2001C18C9 /* AL+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AL+Collection.swift"; sourceTree = "<group>"; };
 		359DA55624472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALValidatableTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		35ACD48B2445D3180087512C /* ALDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDatePicker.swift; sourceTree = "<group>"; };
 		35ACD48D2445D8A70087512C /* AL+ActionSheetPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AL+ActionSheetPicker.swift"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				35DBD20624459AE3008A8144 /* AL+String.swift */,
 				35DBD20724459AE3008A8144 /* AL+UITextField.swift */,
 				35ACD48D2445D8A70087512C /* AL+ActionSheetPicker.swift */,
+				35365FA4244DB5A2001C18C9 /* AL+Collection.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				35DBD22E24459AE3008A8144 /* AL+UITextField.swift in Sources */,
 				35DBD24A24459AE3008A8144 /* ALValidatableConfig.swift in Sources */,
 				35DBD24624459AE3008A8144 /* TCIdentityRule.swift in Sources */,
+				35365FA5244DB5A2001C18C9 /* AL+Collection.swift in Sources */,
 				35DBD22D24459AE3008A8144 /* AL+String.swift in Sources */,
 				35DBD23B24459AE3008A8144 /* ReplacedExactLengthRule.swift in Sources */,
 				35DBD22524459AE3008A8144 /* ALValidatableTextFieldType.swift in Sources */,
