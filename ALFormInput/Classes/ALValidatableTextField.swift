@@ -31,6 +31,7 @@ public class ALValidatableTextField: SkyFloatingLabelTextFieldWithIcon {
         }
     }
     
+    public var isValidSuccess: Bool = false
     
     /// Check your free FontAwesome icon in https://fontawesome.com/icons?d=gallery
     public var fontAwesomeImage: FontAwesome? {
@@ -263,18 +264,6 @@ public class ALValidatableTextField: SkyFloatingLabelTextFieldWithIcon {
         fontAwesomeStyle = .solid
     }
     
-    func validationFailed(_ errors:[(Validatable ,ValidationError)]) {
-        // turn the fields to red
-        for (field, error) in errors {
-            if let field = field as? UITextField {
-                field.layer.borderColor = config.errorColor.cgColor
-                field.layer.borderWidth = 1.0
-            }
-            error.errorLabel?.text = error.errorMessage // works if you added labels
-            error.errorLabel?.isHidden = false
-        }
-    }
-    
     /// Gets called when editing starts on a paddingNeeded enabled textfield
     @objc private func setPaddingForEditingTextFields() {
         let editingPad = UIEdgeInsets(top: 8, left: 0, bottom: -8, right: 0)
@@ -284,6 +273,27 @@ public class ALValidatableTextField: SkyFloatingLabelTextFieldWithIcon {
     /// Default padding is --> top: 4, left: 0, bottom: 4, right: 0
     private func setPadding(_ padding: UIEdgeInsets = UIEdgeInsets(top: 4, left: 0, bottom: 4, right: 0)) {
         self.padding = padding
+    }
+    
+    public func validate() {
+        validator.validate(self)
+    }
+}
+
+// MARK: - ValidationDelegate
+extension ALValidatableTextField: ValidationDelegate {
+    public func validationSuccessful() {
+        isValidSuccess = true
+    }
+    
+    public func validationFailed(_ errors: [(Validatable, ValidationError)]) {
+        // turn the fields to red
+        isValidSuccess = false
+        for (field, error) in errors {
+            if let field = field as? SkyFloatingLabelTextFieldWithIcon {
+                field.errorMessage = error.errorMessage
+            }
+        }
     }
 }
 
