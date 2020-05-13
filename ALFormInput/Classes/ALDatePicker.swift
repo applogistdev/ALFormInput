@@ -21,7 +21,7 @@ public class ALDatePicker: ALValidatableTextField {
     private var datePickerMode: UIDatePicker.Mode?
     private var minDate: Date?
     private var maxDate: Date?
-    private var showFormat: String = "HH/mm/yyyy"
+    private var showFormat: String = "dd/MM/yyyy"
     private var locale: Locale?
     public var selectedDate: Date?
     
@@ -41,7 +41,7 @@ public class ALDatePicker: ALValidatableTextField {
                             minDate: Date? = nil,
                             maxDate: Date? = nil,
                             locale: Locale? = Locale.current,
-                            dateShowFormat: String = "HH/mm/yyyy") {
+                            dateShowFormat: String = "dd/MM/yyyy") {
         self.datePickerMode = pickerMode
         self.minDate = minDate
         self.maxDate = maxDate
