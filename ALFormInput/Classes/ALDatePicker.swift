@@ -12,12 +12,13 @@ import AlExtensions
 
 public protocol ALDatePickerDelegate: class {
     func didSelectDate(_ view: ALDatePicker, selectedDate: Date)
+    func willBeginEditing(_ view: ALDatePicker)
 }
 
 
 public class ALDatePicker: ALValidatableTextField {
     
-    weak var datePickerDelegate: ALDatePickerDelegate?
+    public weak var datePickerDelegate: ALDatePickerDelegate?
     private var datePickerMode: UIDatePicker.Mode?
     private var minDate: Date?
     private var maxDate: Date?
@@ -74,14 +75,13 @@ public class ALDatePicker: ALValidatableTextField {
         picker?.addButtons()
         picker?.show()
     }
-    
-    
 }
 
 // MARK: - UITextFieldDelegate
 extension ALDatePicker: UITextFieldDelegate {
     public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         showActionSheetDatePicker()
+        datePickerDelegate?.willBeginEditing(self)
         return false
     }
 }
