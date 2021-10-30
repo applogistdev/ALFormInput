@@ -13,6 +13,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+## Swift Package Manager 
+
+Once you have your Swift package set up, adding ALFormInput as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+ ```
+ dependencies: [
+   .package(url: "https://github.com/applogistdev/ALFormInput.git", from: "'0.2.7")
+ ]
+ ```
+
+### Cocoapods
 ALFormInput is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
